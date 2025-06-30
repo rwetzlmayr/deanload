@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>textism: Link Differentiation</title> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/common/css.css" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://textism.com/?rss=1" />
+	<link rel="alternate" type="application/atom+xml" title="Atom" href="http://textism.com/?atom=1" />
+</head>
+<body>
+<div id="container">
+<div id="head"><a href="/" onfocus="if(this.blur)this.blur()"><img src="/common/pear2.gif" style="height:142px;width:500px;border:0" alt="Textism" /></a></div>
+<div id="left">
+		<p>Related<br /><a href="/article/762/cleaning-word-html">Cleaning Word HTML</a><br />
+<a href="/article/733/refer-20">Refer 2.0</a><br />
+<a href="/article/687/txp-bee-one-3">Txp bee one 3</a><br />
+<a href="/article/648/textile">Textile</a><br />
+<a href="/tools/639/google-hilite">Google Hilite</a><br />
+<a href="/article/638/google-hilite">Google Hilite</a><br />
+<a href="/article/632/bigsmallbig">Bigsmallbig</a><br />
+<a href="/article/611/refer-10">Refer 1.0</a><br />
+<a href="/article/449/go-shaggy-go-scooby">Go Shaggy, Go Scooby</a><br />
+<a href="/article/392/sort-of-new">Sort of New</a></p>
+</div>
+<div id="right">
+		<p><span class="caps">AUTHOR</span><br />
+			<a href="/about/" title="About the author">Dean Allen</a></p>
+		<p><span class="caps">OCCUPATION</span><br />
+			Industrialist</p>
+		<p><span class="caps">LOCATION</span><br />
+			Pompignan, France</p>
+		<p><span class="caps">CONTACT</span><br />
+			From <a href="/contact/" title="send a message via this web site">here</a> or <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#101;&#97;&#110;&#64;&#116;&#101;&#120;&#116;&#105;&#115;&#109;&#46;&#99;&#111;&#109;" title="send a message via your email application">there</a></p>
+		<form action="/index.php" method="get">Search<br /><input type="text" name="q" value="" size="15" /></form>
+		<form action="/" method="get">
+Browse<br /><select name="c" onchange="submit(this.form)">
+	<option value=""></option>
+		<option value="Advertised+Life">Advertised Life</option>
+		<option value="Announcements">Announcements</option>
+		<option value="Books+%26+Reading">Books &amp; Reading</option>
+		<option value="Cupertino">Cupertino</option>
+		<option value="Design+is+Business">Design is Business</option>
+		<option value="Dull+White+Men">Dull White Men</option>
+		<option value="Elsewhere">Elsewhere</option>
+		<option value="Food">Food</option>
+		<option value="France">France</option>
+		<option value="Gardening">Gardening</option>
+		<option value="Google">Google</option>
+		<option value="Hacks">Hacks</option>
+		<option value="Herself">Herself</option>
+		<option value="How+To">How To</option>
+		<option value="Irritation">Irritation</option>
+		<option value="Laffs">Laffs</option>
+		<option value="Memoir">Memoir</option>
+		<option value="Microsoft">Microsoft</option>
+		<option value="Movies">Movies</option>
+		<option value="Music">Music</option>
+		<option value="Oliver">Oliver</option>
+		<option value="Other+People">Other People</option>
+		<option value="Photographs">Photographs</option>
+		<option value="Published+Web">Published Web</option>
+		<option value="Questions">Questions</option>
+		<option value="Rock+Gods">Rock Gods</option>
+		<option value="Scripting">Scripting</option>
+		<option value="Shopping">Shopping</option>
+		<option value="Stories">Stories</option>
+		<option value="Teaching">Teaching</option>
+		<option value="Text+Wrangling">Text Wrangling</option>
+		<option value="The+Move">The Move</option>
+		<option value="Typography">Typography</option>
+		<option value="Verisign">Verisign</option>
+		<option value="Web+Economy">Web Economy</option>
+</select><noscript><input type="submit" value="go" /></noscript></form>
+</div>
+<div id="center">
+	<h3><a href="/article/569/link-differentiation" title="Permanent link to this article">Link Differentiation</a> &#183; 23 August 02</h3>
+ 
+<p>
+	Like <a href="http://diveintomark.org/archives/2002/08/22.html#automatically_inserting_images_before_offsite_links" title="dive into mark/August 22, 2002">Mark Pilgrim</a> I was impressed by <a href="http://www.rebeccablood.net/" title="what&#8217;s in rebecca&#8217;s pocket?">Rebecca Blood</a>&#8217;s clever decision to differentiate outgoing and internal links with colour using <acronym title="Cascading Style Sheets"><span class="caps">CSS</span></acronym>. 
+</p>
+<p>
+	Mark posted a <acronym class="Moveable Type">MT</acronym> macro that takes care of this automatically in Perl. Here&#8217;s a <span class="caps">PHP</span> function that does the same. All that&#8217;s needed is:
+</p>
+<ul>
+	<li>
+		$text: some text to be scanned for links
+	</li>
+	<li>
+		$outclass: the <span class="caps">CSS</span> class created for outgoing links
+	</li>
+	<li>
+		$imgurl: optional image, i.e., "/images/globe.gif" 
+	</li>
+</ul>
+<p>
+	The function:
+</p>
+<textarea rows="10" cols="45">
+&lt;?
+
+function outlinks($text,$outclass,$imgurl=&quot;&quot;){
+
+global $_SERVER;
+
+$dr = $_SERVER[DOCUMENT_ROOT];
+
+	if (!empty($imgurl)) {
+		$size = getimagesize($dr.$imgurl);
+		$img = &quot;&lt;img src=\&quot;$imgurl\&quot; $size[3] alt=\&quot;\&quot; /&gt;&quot;; 
+	}
+	$text = eregi_replace(&quot;(&lt;a href=\&quot;http[^&gt;]*)&gt;&quot;,&quot;$img \\1 class=\&quot;$outclass\&quot;&gt;&quot;,$text);
+	return $text;
+}
+
+?&gt;
+</textarea><br />
+
+<p>
+	Example usage:
+</p>
+<textarea name="Code" rows="10" cols="45">
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+        &quot;http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+	&lt;title&gt;For Example&lt;/title&gt;
+	&lt;style type=&quot;text/css&quot; media=&quot;Screen&quot;&gt;
+		a.outlink { color: red; }
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;?
+
+function outlinks($text,$outclass,$imgurl=&quot;&quot;){
+
+global $_SERVER;
+
+$dr = $_SERVER[DOCUMENT_ROOT];
+
+	if (!empty($imgurl)) {
+		$size = getimagesize($dr.$imgurl);
+		$img = &quot;&lt;img src=\&quot;$imgurl\&quot; $size[3] alt=\&quot;\&quot; /&gt;&quot;; 
+	}
+	$text = eregi_replace(&lt;a &quot;(href=\&quot;http[^&gt;]*)&gt;&quot;,&quot;$img \\1 class=\&quot;$outclass\&quot;&gt;&quot;,$text);
+	return $text;
+}
+
+
+// an example:
+
+$text = '&lt;a href=&quot;http://www.textism.com/oliver/&quot;&gt;External Link&lt;br /&gt;
+&lt;a href=&quot;/oliver/&quot;&gt;Internal Link&lt;/a&gt;';
+
+print outlinks($text,&quot;outlink&quot;);
+
+?&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</textarea><br />
+
+
+<p style="text-align:center">* &nbsp; * &nbsp; *</p>
+<p class="nav"><a href="/article/568/patriotism" class="noline">&#8592; Patriotism | </a>
+<a href="/" class="noline">Home</a>
+<a href="/article/570/canal-moins" class="noline"> | Canal Moins &#8594;</a>
+</p>
+</div>
+<div id="foot">&nbsp;</div>
+</div>
+</body>
+</html>
+<!-- Runtime: 0.0662 -->

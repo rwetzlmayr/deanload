@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: My father is visiting</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/05/02/my.father.is.visiting" title="Permanent link to this item">My father is visiting</a></h2>
+
+<h3><span class="outleft">2 May 2008, 3pm</span></h3>
+
+<p>Eleven random biographical notes:</p>
+<ol>
+<li>When I was very small he worked two jobs at once; one was in a sawmill</li>
+<li>On his fortieth birthday he got a perm</li>
+<li>He used to drink too much, then one day he just stopped</li>
+<li>He can be stubborn as a mule who’s just graduated stubborn school</li>
+<li>Though born in Alberta, his veins practically pulse with sea water</li>
+<li>On a hot day out in a boat near North Pender Island, he dared me to dive into the water to cool off; a week later I developed pneumonia</li>
+<li>When she had decided their marriage was over, I helped move out my mother’s stuff while he, completely unaware, was out fishing</li>
+<li>His own father was seriously injured when a drunk woman, unable to find her chauffeur, plowed her car through the crowd at Lansdowne Racetrack</li>
+<li>We got into a fistfight when I was sixteen and he had me down in seconds</li>
+<li>He has a new hearing aid, and a new hip</li>
+<li>He is sixty nine years old</li>
+</ol>
+<p class="photo"><img src="/img/20080502_124153.jpg" alt="Photograph of the author's father" width="800" height="450" /></p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

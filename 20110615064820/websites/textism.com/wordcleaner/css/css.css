@@ -1,0 +1,53 @@
+body { font-family: Georgia,Times,serif; text-align:left; color:#000; font-size: 14px; margin: 0; padding 0; background-color: #fff; padding-bottom:10em;}
+
+a { color: red; text-decoration:none; }
+
+h1 a { color: #000; text-decoration: none; }
+
+h1 a:hover { color: inherit; text-decoration: none; }
+
+a:hover { color: red; text-decoration:underline; }
+
+a img { border:none; }
+
+h1, h2, h3, h4 { font-weight:normal; }
+
+h1 { color: #000; font-size: 180%; }
+
+h3 { color: #000; font-size: 140%; }
+
+ul, li { margin: 0 12px; }
+
+p { line-height: 1.8em; }
+
+p.flash { margin-top: 9em; }
+
+.caps { font-size: 90%; letter-spacing: .15em; }
+
+p.error { color: #900; font-size: 80%; }
+
+p.small { font-size: 85%; }
+
+p.red { color:red; }
+
+p.ads {font-size:90%;}
+img.ad {margin-top:1em;}
+
+#container { text-align:left; }
+
+#girth { width:1000px;}
+
+#header { margin: 0; padding-left: 60px; padding-top: 30px; height: 100px; background-color: transparent; background-image:
+url(/wordcleaner/img/fad.png); background-repeat: repeat-x; background-position: 0 0; }
+
+#pageright { margin-left:30px; float:left; width:200px; }
+
+#content { width: 600px; float: left; padding-left: 60px; margin-bottom:10em }
+
+#subscriber, #uploader, #cleaned { margin-top: 3em; }
+
+#cleaned { margin-bottom: 3em }
+
+#footer { clear:both; padding-left:60px }
+
+td { vertical-align: top;}

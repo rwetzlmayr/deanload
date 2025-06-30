@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: On cameras and flies</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/25/on.cameras.and.flies" title="Permanent link to this item">On cameras and flies</a></h2>
+
+<h3><span class="outleft">25 Apr 2008, 5pm</span></h3>
+
+<p>I am as they say hereabouts <em>nul</em> when it comes to taking photographs. As a designer slash art director I think I had a fairly good eye for what makes a picture work, and what makes one work in a layout – at least I hope so, wouldn’t want those thousands of hours spent squinting into loupes over light tables saying <em>nope nope nope</em> to have amounted to nothing. When it comes to taking the things myself though, always a frustration. Press the shutter release, hope for the best, and never ever end up with what was expected (well, maybe <a href="http://textism.com/photos/?s=8&amp;p=75" title="Bad Dog">once</a>). Not entirely unversed in the logic of exposure time and apertures, but ultimately just too impatient to develop anything like the supple knowledge photographers whose work I like can access in an instant. That and I’ve been using the wrong goddamn cameras.</p>
+<p>For years now I’ve used Leica (or more often the Panasonic Lumix versions, which have the same glass and electronics but come much cheaper) consumer-end cameras, mainly because some lingering art school snobbery I picked up as a teenager dictates that anything Leica or Hasselblad marks you as a better photographer than any Japanese silliness ever possibly could. True or not (not) the pictures kept turning out wrong: impossible to get a good white balance in anything other than direct sunlight, noisy junk all over the place at any speed greater than 100 <span class="caps">ASA</span>, slippery autofocus that took, like, a couple <em>hours</em> to lock in before firing the shutter. Finally it dawned on me after a few years of blind brand allegiance what Leica’s consumer products are: a brilliant, razor-sharp lens up front, a webcam on back.</p>
+<p>I’ve always been reluctant to use a <span class="caps">DSLR</span> – the one sure thing about being an expat is you never want to look like a tourist – however having just this week received a lump sum payment that has at long last made its way through the barely perceptible movements of the rusty squeaking gears that is accounts payable at a certain publishing concern that shall remain, er, unnamed, I did two capricious things I’d been champing at the bit to do for ages: bought Herself (who is, justifiably, more than a little tired of being given my smoked and smudged hand-me-downs) a bright shiny white portable computing device, and myself a Nikon D60, with the standard vanilla 18–55mm kit lens. After all I’m now at the stage in life where, looks-wise, coming off as a tourist occupies the least of my concern.</p>
+<p class="photo"><img src="/img/first_fly_20080425_075236_sm.jpg" alt="Photo of the first spring fly spotted this year" width="800" height="537" /></p>
+<p><span class="outleft">First fly spotted this year. Many billions more will come.</span></p>
+<p>Christ on a <em>bike</em> what a difference. I feel like someone handed a slice of hot toast spread with cultured butter after a lifetime breakfasting on Skittles and government cheese. I mean, it does what I want it to! It autofocuses in less time than it takes my eyes to imagine what a proper focus would be! You can take pictures in tungsten light without tacking a fucking white card to the wall and metering fifteen times! You push the button and it takes a fucking picture! I am in consumer ecstasy! I am in consumer ecstasy! NyQuil! Advil! Malt liquor! </p>
+<p>Ahem. Gonna go take pictures of my feet.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

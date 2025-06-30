@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Click-throughs built the pyramids</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/28/click.throughs.built.the.pyramids" title="Permanent link to this item">Click-throughs built the pyramids</a></h2>
+
+<h3><span class="outleft">28 Apr 2008, 6pm</span></h3>
+
+<p>However you may happen to feel on the subject, I’m pleased as punch to have been asked to participate in <a href="http://www.coudal.com/deck">The Deck</a>, the rakishly named advertising network ‘reaching creative, web and design professionals’ run by Coudal Partners in Chicago. Textism now joins <a href="http://kottke.org">The Kottke</a>, <a href="http://daringfireball.net">Gary Fireball</a>, <a href="http://zeldman.com" title="Zeldman you magnificent bastard">El Jefe</a>, <a href="http://themorningnews.org">The Other Baldwin Brother</a> and suchlike damn fine web sites providing the goods and asking little in return but the occasional pause to click through and consider a product or service that may be of use. If not, not. Your call.</p>
+<p>My only condition for joining was free license to slap around others in the network, and the advertisers themselves, to which Jim Coudal’s response was ‘of course’, so, as they say, <em>sorted.</em></p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

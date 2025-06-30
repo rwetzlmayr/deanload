@@ -1,0 +1,362 @@
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Textism</title>
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+       <link href="/textpattern/css.php?s=default" rel="stylesheet" type="text/css" />
+        <link rel="alternate" type="application/rss+xml" title="rss" href="/rss/" />
+</head>
+<body>
+<div id="container">
+<div id="head">
+<a href="/"><img src="/common/textism.gif" alt=""/></a>
+</div>
+<div id="content">
+<h3>Refer 2.0 <span class="permlink"><a href="/article/733/">::</a> </span> <span class="date">POSTED 14 DAYS AGO</span></h3>
+	<p><a href="/tools/refer/" title="">Rewritten</a>, rejigged, real fast, really.</p>
+ 
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Txp bee one 3 <span class="permlink"><a href="/article/687/">::</a> </span> <span class="date">POSTED 113 DAYS AGO</span></h3>
+<p>Writing code all day is fun. Fun fun fun. Such fun. Fourteen hours a day of fun. Humbling in its funniness.</p>
+
+	<p>Textpattern <a href=\"http://www.textpattern.com\" title=\"\">beta 1.3</a> is up, largely rebuilt to deal with some security vulnerabilities, and to help it along with functioning on systems not precisely one hundred percent like the one I use. Now back to documentation and a new support forum. Won&#8217;t be trying to write the latter from scratch, this time.</p>
+
+	<p>One thing that had been driving me nuts the past week was the absence of clear navigation in Textpattern between the three forms text takes on its way to the web text: first as plain text, then as <span class=\"caps\">HTML</span>, then as parsed in a browser.  A new feature in Textpattern, <a href=\"http://www.textpattern.com/screenshots/?s=edit\" title=\"\">illustrated here</a>, aims to simplify the process a bit. On its composing page, text is always available in all three forms. Using tabs, a writer can glide between plain text, <span class=\"caps\">HTML</span> and parsed preview before saving an article. Seems to work pretty well.</p>
+
+	<p>Sleep now.</p>
+ 
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Textile <span class="permlink"><a href="/article/648/">::</a> </span> <span class="date">POSTED 188 DAYS AGO</span></h3>
+		<p>For years I&#8217;ve been trying to imagine a bulletproof web-based plaintext-to-<span class="caps">HTML</span> system, one that respects typographic standards and the correct presentation of non-standard characters, as well as structured markup, without the writer having to think (or having to have learned) very much about it. Ideally such a system would mimic the functions in the <a href="http://www.textism.com/resources/index.html?id=9" title="Textism &#8250; Single Serving &#8250; Scripted Writing f...">web writing Applescripts</a> available from this site, which were created with the same ideal in mind; those scripts make writing text for the web a snap, but only for those working on the Mac platform, and, as the scripts require a standalone application to run, they impose what feels like an unnecessary third step in between writing and publishing. Ideally, one should be able to write, hit send, and be done.</p>
+
+	<p>Of course many current content management systems allow you to do just that &#8211; write, format and publish in one place &#8211; but none offer a complete and unfussy way to ensure the typographic and structural standards mentioned above, nor do <s style="color:gray">any</s> all offer easy methods to produce textual niceties (such as, say, numbered and bulleted lists or block-quoted paragraphs) available in word processors to those who don&#8217;t want (or don&#8217;t know how) to type out a lot of <span class="caps">HTML</span> tags. [Revised: I was ignorant of <a href="http://www.decafbad.com/twiki/bin/view/Main/MTWikiFormatPlugin">this</a> and <a href="http://www.zope.org/Documentation/Articles/STX">this</a>, both of which integrate with specific <span class="caps">CMS</span>s]</p>
+
+	<p>So I&#8217;ve come up with <a href="http://www.textism.com/tools/textile/" title="Textism &#8250; Tools &#8250; Textile">Textile</a>, a humane web text generator.<br>
+	You can try it out with some <a href="http://www.textism.com/tools/textile/?sample=1" title="Textism &#8250; Tools &#8250; Textile">preloaded sample text</a>, or type in whatever you like to see how it works. Go ahead, format some text. Go on. Let me know where it lets you down.</p>
+
+	<p>What it&#8217;s supposed to do: </p>
+
+	<ol>
+		<li>Convert non-standard characters to <span class="caps">HTML</span> entities, ensuring proper display on different browsers and operating systems (&#244;&#238;&#251;&#214;&#207;&#220;).</li>
+		<li>Offer (for now a fairly short list) of automatic conversions from plain text conventions left over from the manual typewriter to their typographic equivalents (two hyphens become an em dash, one hyphen surrounded by spaces becomes an en dash, etc.).</li>
+		<li>Ensure that problematic characters such as the ampersand are converted to an entity where necessary.</li>
+		<li>Convert straight single and double quote marks to their typographic &#8216;curled&#8217; equivalents in readable text, while leaving quote marks required by <span class="caps">HTML</span> untouched. (The witheringly talented <a href="http://daringfireball.net/" title="Daring Fireball">John Gruber</a> has written a <a href="http://daringfireball.net/projects/smartypants/" title="Daring Fireball Projects: SmartyPants">Moveable Type plugin</a> in Perl that does this sort of quote &#8216;education&#8217;; Textile is written in <span class="caps">PHP</span> and it uses a different text-scouring method, but it owes a lot to the example of John&#8217;s excellent script.)</li>
+		<li>Offer quick ways to delineate text structure, without typing out tags. Headers, list, and blockquote tags are wrapped automatically simply by typing two or three characters at the beginning of a paragraph. Paragraph tags and linebreaks are handled automatically.</li>
+		<li>Offer shortcuts to style text (bold, italic) that may save minutes over the course of a lifetime.</li>
+		<li>For the raised pinky set: automatic application of a <span class="caps">CSS</span> style called &#8216;caps&#8217; to strings of three or more <span class="caps">UPPERCASE</span> letters.</li>
+	</ol>
+
+	<p>It&#8217;s part of Textpattern. Which will be ready some day.</p>
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Google Hilite <span class="permlink"><a href="/tools/639/">::</a> </span> <span class="date">POSTED 199 DAYS AGO</span></h3>
+<h3>What is It?</h3>
+
+<p>When applied to a page arrived at via Google, this function will highlight the terms used for the Google search wherever they appear.</p>
+
+	<p>To see Google Hilite in action, click through the first result on <a href="http://www.google.com/search?client=googlet&#38;q=fuck%20me" title="Google Search: fuck me">this Google search</a> (after the &#8216;sponsored link&#8217;) or the fifth (!) result for <a href="http://www.google.com/search?hl=en&#38;lr=&#38;ie=ISO-8859-1&#38;client=googlet&#38;q=verisign" title="Google Search: verisign">Verisign</a>.</p>
+
+<h3>How to Install</h3>
+
+<p>1. Download and extract <a href="/tools/google_hilite/google_hilite.zip">google_hilite.zip</a>.</p>
+
+<p>2. Upload <code>google_hilite.php</code> to your server</p>
+
+<p>3. Add a style to your CSS:</p>
+
+<blockquote><code>.hilite { background-color: #FF9; }</code></blockquote>
+	
+<p><em>By all means change the colour.</em></p>
+
+<p>4. Place this on your pages or template, right after &#60;body&#62;</p>
+
+<blockquote><code>
+	&#60;?php <br />
+	$dr = $_SERVER[DOCUMENT_ROOT];<br />
+	include_once($dr.'/PATH/TO/google_hilite.php');<br />
+	ob_start("google_hilite"); <br />
+	?&#62;
+</code></blockquote>
+
+<p><em>If you uploaded the file to a directory called &#8216;<code>includes</code>&#8217; in your web directory, the line above should read </em><br /><code>include_once($dr.'/includes/google_hilite.php');</code></p>
+
+<p>5. Place the following somewhere if you&#8217;d like to welcome the google visitor:</p>
+
+	<blockquote><code>&#60;? google_welcome(); ?&#62;</code></blockquote>
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Google Hilite <span class="permlink"><a href="/article/638/">::</a> </span> <span class="date">POSTED 201 DAYS AGO</span></h3>
+	<p>I saw that young <a href="http://q.queso.com/" title="Q Daily News">Dr Levine</a> (the hardest working human in modern pediatrics) had implemented a very suave bit of scripting, one that highlights the search terms that bring people to his site via Google.</p>
+
+	<p>I was like <span class="caps">WHOAH DOOD</span> and he was all <span class="caps">LAHLAH LOOK AT ME</span> and I was all <span class="caps">NOT EVEN</span> and he was all <span class="caps">LOOKIT MY GOOGLE THING</span> and I&#8217;m like <span class="caps">NO WAY DOOD</span> and he&#8217;s like <span class="caps">NYAH NYAH</span> and I&#8217;m like</p>
+
+<p><code>
+&#60;?php<br />
+function google_hilite($text) {<br />
+$ref = urldecode($_SERVER[HTTP_REFERER]);<br />
+if (preg_match('/^http:\/\/w?w?w?\.?google.*/i',$ref)) {<br />
+$query = preg_replace('/^.*q=([^&#38;]+)&#38;?.*$/i','$1',$ref);<br />
+$query = preg_replace('/\'|"/','',$query);<br />
+$query_array = preg_split ("/[\s,\+\.]+/",$query);<br />
+foreach($query_array as $b){<br />
+if (!preg_match('/&#60;.+&#62;/',$text)) {<br />
+$text = preg_replace(<br />
+'/(\b'.$b.'\b)/i',<br />
+'&#60;span class="hilite"&#62;$1&#60;/span&#62;',<br />
+$text);  <br />
+} else {<br />
+$text = preg_replace(<br />
+'/(?&#60;=&#62;)([^&#60;]+)?(\b'.$b.'\b)/i',<br />
+'$1&#60;span class="hilite"&#62;$2&#60;/span&#62;',<br />
+$text);<br />
+}<br />
+}<br />
+}<br />
+return $text;<br />
+}<br />
+?&#62;
+</code></p>
+
+	<p>Some documentation and an ancillary script are <a href="http://textism.com/tools/google_hilite/google_hilite.txt" title="source">here</a>.</p>
+
+	<p>To see Google Hilite in action, click through the first result on a Google search for <a href="http://www.google.com/search?client=googlet&#38;q=fuck%20me" title="Google Search: fuck me">fuck me</a> (after the &#8216;sponsored link&#8217;) or the fifth (!) result for <a href="http://www.google.com/search?hl=en&#38;lr=&#38;ie=ISO-8859-1&#38;client=googlet&#38;q=verisign" title="Google Search: verisign">Verisign</a>.</p>
+
+<p>NB: The examples cited above weren&#8217;t working for a few hours on Sunday, owing to a cockup by the author.</p>
+
+	<p><span class="caps">UPDATE</span>: Using this is much simpler than I may have indicated. Google Hilite can be used on just about any page, so long as PHP is running on the server. <a href="/tools/google_hilite/">Further details and a download</a>.</p>
+
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Bigsmallbig <span class="permlink"><a href="/article/632/">::</a> </span> <span class="date">POSTED 210 DAYS AGO</span></h3>
+	<p>Thanks in part to a nudge from <a href="http://diveintomark.org/archives/2002/11/21.html#a_warning_to_others">Mark Pilgrim</a>, <s style="color:gray">and in part to a smart little <a href="http://leknor.com/code/php/class.gzip_encode.php.txt"><span class="caps">PHP</span> class</a> (long since <a href="http://leknor.com/discuss/read.php?f=5&#38;i=114&#38;t=111&#38;v=t">disowned</a> by its author)</s> [see below], the documents on this site are now served gzip compressed (at sizes reduced as much as 75%) to browsers which can handle such data, which I believe is most, though I&#8217;m not sure, but I&#8217;m fairly sure that browsers which cannot handle such data are sent a plain uncompressed file. I would ask for reports of decompression errors, but if there were any decompression errors the request wouldn&#8217;t be visible; such is the nature of compression. If you can read this it works.</p>
+ 
+<p>
+<span class="caps">UPDATE</span>: Anyone with a recent version of <span class="caps">PHP</span> (4.1+) running on their server can easily take advantage of this. Benefits are greatly reduced bandwidth consumption and a much speedier site, especially for readers using modems.</p>
+
+<p>Simply place the following snippet at the very first line of <span class="caps">PHP</span>-aware web pages, before <code>&#60;html&#62;</code>:
+</p>
+
+<blockquote><code>&#60;?php ob_start("ob_gzhandler"); ?&#62;</code>
+</blockquote>
+
+<p>
+And that&#8217;s it. Test <a href="http://leknor.com/code/gziped.php">here</a>.</p>
+
+<p>Potential problems and solutions:</p>
+
+<ul type="circle">
+	<li>If compression is failing and you can see the code snippet when you View Source on your page, the page is not <span class="caps">PHP</span>-aware. Create a text file in your web directory called <code>.htaccess</code> (if one exists already, open it) and paste the following inside it: <br /><code>AddType application/x-httpd-php .html .htm</code></li>
+	<li>If compression is failing and you <em>can&#8217;t</em> see the code snippet when you View Source, chances are your server&#8217;s version of <span class="caps">PHP</span> was compiled without the gzip library. Confirm this with your server admin.</li>
+<li>If you get the error message <code>"output handler 'ob_gzhandler' cannot be used twice"</code>, your pages are already being compressed. Felicitations.</li>
+<li>If you get an error message like <code> "headers already sent"</code>, make sure the snippet is at the very beginning of the page, before anything else.</li>
+</ul>
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Refer 1.0 <span class="permlink"><a href="/article/611/">::</a> </span> <span class="date">POSTED 242 DAYS AGO</span></h3>
+	<p>I&#8217;m finally getting close to getting around to getting going on releasing some of the software I&#8217;ve alluded to over the past decade.</p>
+
+	<p>First is <a href="/tools/refer/" title="Refer 1.0">Refer</a>, a module of the <span class="caps">CMS</span> that runs this site. Refer offers clear, up-to-the-minute tracking of incoming referrers to a web site. You can see it in action <a href="/refer/">right here</a>.</p>
+
+	<p>Use it in good health.</p>
+
+	<p><span class="caps">UPDATE</span>: Now version 1.04. Fixed problems with internal referrer filtering and such. Details in the <a href="/tools/refer/">change log</a>.</p>
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Link Differentiation <span class="permlink"><a href="/article/569/">::</a> </span> <span class="date">POSTED 300 DAYS AGO</span></h3>
+ 
+<p>
+	Like <a href="http://diveintomark.org/archives/2002/08/22.html#automatically_inserting_images_before_offsite_links" title="dive into mark/August 22, 2002">Mark Pilgrim</a> I was impressed by <a href="http://www.rebeccablood.net/" title="what&#8217;s in rebecca&#8217;s pocket?">Rebecca Blood</a>&#8217;s clever decision to differentiate outgoing and internal links with colour using <acronym title="Cascading Style Sheets"><span class="caps">CSS</span></acronym>. 
+</p>
+<p>
+	Mark posted a <acronym class="Moveable Type">MT</acronym> macro that takes care of this automatically in Perl. Here&#8217;s a <span class="caps">PHP</span> function that does the same. All that&#8217;s needed is:
+</p>
+<ul>
+	<li>
+		$text: some text to be scanned for links
+	</li>
+	<li>
+		$outclass: the <span class="caps">CSS</span> class created for outgoing links
+	</li>
+	<li>
+		$imgurl: optional image, i.e., "/images/globe.gif" 
+	</li>
+</ul>
+<p>
+	The function:
+</p>
+<textarea rows="10" cols="45">
+&lt;?
+
+function outlinks($text,$outclass,$imgurl=&quot;&quot;){
+
+global $_SERVER;
+
+$dr = $_SERVER[DOCUMENT_ROOT];
+
+	if (!empty($imgurl)) {
+		$size = getimagesize($dr.$imgurl);
+		$img = &quot;&lt;img src=\&quot;$imgurl\&quot; $size[3] alt=\&quot;\&quot; /&gt;&quot;; 
+	}
+	$text = eregi_replace(&quot;(&lt;a href=\&quot;http[^&gt;]*)&gt;&quot;,&quot;$img \\1 class=\&quot;$outclass\&quot;&gt;&quot;,$text);
+	return $text;
+}
+
+?&gt;
+</textarea><br />
+
+<p>
+	Example usage:
+</p>
+<textarea name="Code" rows="10" cols="45">
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+        &quot;http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+	&lt;title&gt;For Example&lt;/title&gt;
+	&lt;style type=&quot;text/css&quot; media=&quot;Screen&quot;&gt;
+		a.outlink { color: red; }
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;?
+
+function outlinks($text,$outclass,$imgurl=&quot;&quot;){
+
+global $_SERVER;
+
+$dr = $_SERVER[DOCUMENT_ROOT];
+
+	if (!empty($imgurl)) {
+		$size = getimagesize($dr.$imgurl);
+		$img = &quot;&lt;img src=\&quot;$imgurl\&quot; $size[3] alt=\&quot;\&quot; /&gt;&quot;; 
+	}
+	$text = eregi_replace(&lt;a &quot;(href=\&quot;http[^&gt;]*)&gt;&quot;,&quot;$img \\1 class=\&quot;$outclass\&quot;&gt;&quot;,$text);
+	return $text;
+}
+
+
+// an example:
+
+$text = '&lt;a href=&quot;http://www.textism.com/oliver/&quot;&gt;External Link&lt;br /&gt;
+&lt;a href=&quot;/oliver/&quot;&gt;Internal Link&lt;/a&gt;';
+
+print outlinks($text,&quot;outlink&quot;);
+
+?&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</textarea><br />
+
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Go Shaggy, Go Scooby <span class="permlink"><a href="/article/449/">::</a> </span> <span class="date">POSTED 500 DAYS AGO</span></h3>
+	<p>After a period of herculean idleness on my part, the <a href="http://www.textism.com/resources/index.html?id=9" title="Textism &#8250; Single Serving &#8250; Scripted Writing f...">Web Writing AppleScripts</a> for Tex-Edit Plus have had a retooling, and now work better, faster, and in an improved fashion.</p>
+
+	<p>What they are in brief: scripts to aid in the production of text for the web, that run within a dandy shareware <a href="http://www.nearside.com/trans-tex/" title="Trans-Tex Software">text editor</a> for the Macintosh (MacOS 9.x or <span class="caps">OSX</span>). The scripts will, for example, make a hyperlink on the fly to whatever page is loaded in your browser, format styled text in a nice standards-compliant way, ensure that dodgy characters such as &#8220;&#176;&#8221; and &#8220;&#182;&#8221; and &#8220;&#197;&#8221; are going to show up as intended on a web page, and generally add to one&#8217;s quality of life.</p>
+
+<p>Use as you will, in good health.</p>
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><h3>Sort of New <span class="permlink"><a href="/article/392/">::</a> </span> <span class="date">POSTED 598 DAYS AGO</span></h3>
+<p>Not new <i>per se</i> but newly added to the column to my right (your left) are some AppleScripts that I made available awhile ago, which kind of went missing for a bit, and for which requests have been many. The <a href="http://www.textism.com/article/270/" title="Fun with Macintoshes">keychain</a> one is handy if you hate entering your master password each time your computer starts up because the fucking thing just crashed or the cat shut the thing down after a marathon session of <i>Leisure Suit Larry</i> or some such. (Say, you aren&#8217;t still shutting your Mac down at the end of the day, are you? Really, there&#8217;s no need. Just put it to Sleep.)</p>
+
+<p>The one for <a href="http://www.textism.com/article/390/" title="Textism &#187; Single Serving &#187; Double Arrows">double arrows</a> at both ends of window scrollbars seems like no big thing at first glance, however once in use, like regular sex or television, it is very nearly impossible to live without.</p>
+
+<p>Minor improvements also to the <a href="http://www.textism.com/resources/cleanwordhtml/" title="Textism &#187; Resources &#187; Word HTML Cleaner">Word HTML Cleaner</a>, which, for a birrovalaff, now shows what the Microsoft code looked like before it was cleaned up. Hoo! </p>
+
+<img src="/common/rule.gif" height="4" width="360" alt="" /><p><a href="?count=10&amp;c=Scripting" title="Next page">Continue</a></p>
+</div>
+<div id="navright">
+ 
+<p class="res">
+	<span class="caps">YOU ARE HERE</span>
+</p>
+<p class="res">
+	<span class="caps">AUTHOR</span>
+	<br />
+	<a href="/about/" title="About the author">Dean Allen</a> 
+</p>
+<p class="res">
+	<span class="caps">OCCUPATION</span> 
+	<br />
+	Worker 
+</p>
+<p class="res">
+	<span class="caps">LOCATION</span> 
+	<br />
+	Pompignan, France 
+</p>
+<p class="res">
+	<span class="caps">CONTACT</span> 
+	<br />
+	From <a href="/contact/" title="send a message via this web site">here</a> | 
+	<a href="mailto:&#100;&#101;&#97;&#110;&#64;&#116;&#101;&#120;&#116;&#105;&#115;&#109;&#46;&#99;&#111;&#109;" title="send a message via your email application">there</a>
+</p>
+<form action="/index.php" method="get"><p>Search<br /><input type="text" name="q" value="" size="15" maxlength="30" /></p></form>
+<form action="/" method="get"><p>Browse<br /><select name="c" onchange="submit(this.form)">
+		<option value=""></option><option value="Advertised+Life">Advertised Life</option><option value="Announcements">Announcements</option><option value="Books+%26+Reading">Books &amp; Reading</option><option value="Cupertino">Cupertino</option><option value="Design+is+Business">Design is Business</option><option value="Dull+White+Men">Dull White Men</option><option value="Elsewhere">Elsewhere</option><option value="Food">Food</option><option value="France">France</option><option value="Gardening">Gardening</option><option value="Google">Google</option><option value="Hacks">Hacks</option><option value="Herself">Herself</option><option value="How+To">How To</option><option value="Irritation">Irritation</option><option value="Laffs">Laffs</option><option value="Memoir">Memoir</option><option value="Microsoft">Microsoft</option><option value="Movies">Movies</option><option value="Music">Music</option><option value="Oliver">Oliver</option><option value="Other+People">Other People</option><option value="Photographs">Photographs</option><option value="Published+Web">Published Web</option><option value="Questions">Questions</option><option value="Rock+Gods">Rock Gods</option><option value="Scripting"selected="selected">Scripting</option><option value="Shopping">Shopping</option><option value="Stories">Stories</option><option value="Teaching">Teaching</option><option value="Television">Television</option><option value="Text+Wrangling">Text Wrangling</option><option value="TextBox">TextBox</option><option value="Textpattern">Textpattern</option><option value="The+Move">The Move</option><option value="Typography">Typography</option><option value="Verisign">Verisign</option><option value="Web+Economy">Web Economy</option></select></p><noscript><input type="submit" value="go" /></noscript></form>
+<p class="side">
+	[<span class="caps"><a href="/rss.php" title="RSS version 0.92">RSS</a></span>] [<span class="caps"><a href="/rdf.xml" title="RSS version 1.0">RDF</a></span>] 
+</p>
+<p class="side">Daily Oliver<br />		<a href="http://www.textism.com/oliver/daily/"><img src="http://www.textism.com/oliver/daily/thumbs/20030618_201838.jpg" width="75" height="100" alt="Link to daily photographs of my dog Oliver" border="0" /></a></p>
+<p class="side">
+	<span class="caps">DONATIONS</span>
+	<br />
+	<a href="/bucket/hat/">Are appreciated</a>
+	<br />
+	[<a target="_blank" href="/donors.php" onclick="window.open(this.href, 'window', 'width=300,height=400,scrollbars,resizable'); return false;">Donors</a>]
+</p>
+<p class="side">
+	<span class="caps">COMING SOON</span> 
+	<br />
+	<a href="http://www.textpattern.com/" title="New CMS">Textpattern</a> 
+</p>
+<p class="side" style="text-indent:-1em;margin-left:1em">
+	<span class="caps">NOTED</span>
+</p>
+	<p class="noted">&middot; <a href="http://www.smh.com.au/articles/2003/06/15/1055615675180.html" title="">Shepherd sues</a></p><p class="noted">&middot; <a href="http://www.nytimes.com/2003/06/17/opinion/17KRUG.html" title="">Dereliction of Duty</a></p><p class="noted">&middot; <a href="http://www.jameslandrith.com/freebies/butler.html" title="">War Is a Racket</a></p><p class="noted">&middot; <a href="http://www.fff.org/comment/com0306j.asp" title="">On Freedom</a></p><p class="noted">&middot; <a href="http://maxspeak.org/gm/archives/00001231.html" title="">Bush lied, people died</a></p><p class="noted">&middot; <a href="http://www.portal.telegraph.co.uk/opinion/main.jhtml?xml=/opinion/2003/06/08/do0801.xml&sSheet=/opinion/2003/06/08/ixopinion.html" title="">Spin and spin more</a></p><p class="noted">&middot; <a href="http://www.harpers.org/online/trillion-dollar_hustle/trillion-dollar_hustle.php3?pg=1" title="">Trillion-Dollar Hustle</a></p><p class="noted">&middot; <a href="http://www.costofwar.com/" title="">Cost of War</a></p><p class="noted">&middot; <a href="http://www.guardian.co.uk/Iraq/Story/0,2763,970002,00.html" title="">Ten killer questions</a></p><p class="noted">&middot; <a href="http://www.thepoorman.net/archives/001909.html#001909" title="">The Cornier</a></p><p class="noted">&middot; <a href="http://www.theanticmuse.com/~anamarie/archives/000102.html" title="">Recruitment Dive</a></p><p class="noted">&middot; <a href="http://www.nytimes.com/2003/06/03/opinion/03KRUG.html" title="">Obedient insistence</a></p><p class="noted">&middot; <a href="http://billmon.org/archives/000193.html" title="">Democracy. Whiskey. Sexy.</a></p><p class="noted">&middot; <a href="http://www.lrb.co.uk/store/mmat.php" title="">Diacritic mousepad</a></p><p class="noted">&middot; <a href="http://www.jewhoo.com/" title="">Jewhoo!</a></p>
+</p>
+<p class="side">
+	<span class="caps">PHOTOGRAPHS</span> 
+	<br />
+	<a href="/photos/" title="Several sets of photographs">An index thereof</a> 
+</p>
+<p class="side">
+	<span class="caps">TOOLS</span> 
+</p>
+<p class="side"><a href="/tools/google_hilite/">Google Hilite</a><br />
+Highlight search terms for those who arrive via Google</p><p class="side"><a href="/tools/refer/">Refer</a><br />
+When who came from where to see what</p><p class="side"><a href="/tools/textile/">Textile</a><br />
+A humane web text generator</p><p class="side"><a href="/resources/index.html?id=9">Web Writing Applescripts</a><br />
+For producing well-formed web text</p><p class="side"><a href="/resources/cleanwordhtml/">Word HTML Cleaner</a><br />
+Strip the gunk from MSWord HTML</p>
+<p class="side">
+	<span class="caps">TUTORIALS</span> 
+</p>
+<p class="side"><a href="/resources/index.html?id=2">Hunting Caps</a><br />
+Finding needles in a text haystack with Regular Expressions</p><p class="side"><a href="/resources/index.html?id=4">Pattern Matching</a><br />
+Search, replace and rearrange text with Grep</p>
+<p class="side">
+	<span class="caps">RESOURCES</span> 
+</p>
+<p class="side"><a href="/maunifesto/">Annotated Maunifesto</a><br />
+Work the metaphor</p><p class="side"><a href="/writing/">Evolution of Writing</a><br />
+In Western Europe, anyway</p><p class="side"><a href="/bucket/fib.html">Fibonacci Series</a><br />
+In egregious Flash</p><p class="side"><a href="/bucket/fibsquare.html">Golden Section</a><br />
+Derived from the square</p><p class="side"><a href="/textfaces/">Twenty Faces</a><br />
+A survey of available text typefaces</p>
+<form method="post" action="http://members.notifylist.com/edit/joinlist">
+	<p class="side">
+		Join the Notify List 
+		<br />
+		<input type="text" name="email" value="" size="12" /> <input type="hidden" name="list_name" value="cardigan-cardigan" /> 
+	</p>
+</form>
+<p style="margin-top:30px">
+	<a href="http://textpattern.com"><img src="http://img.textbox.org/txp_slug105x45.gif" height="45" width="105" border="0" alt="" /></a> 
+</p>
+</div>
+<br clear="all" /><div id="foot">
+
+</div>
+
+</div>
+</body>
+</html>
+<!-- Runtime: 0.254403-->

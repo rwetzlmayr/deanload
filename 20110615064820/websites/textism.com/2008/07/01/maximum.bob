@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Maximum Bob</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/07/01/maximum.bob" title="Permanent link to this item">Maximum Bob</a></h2>
+
+<h3><span class="outleft">1 Jul 2008, 6pm</span></h3>
+
+<p>I wrote a <a href="/2008/04/24/podswollop" title="Podswollop"><span style="color: #a90000;">thingy</span></a> on the podcasting format a couple months ago – making fun of novelty gadgets and mediocrity, but also listing shows I subscribe to and like. Within an hour or so of posting it my Apache logs showed a flurry of visits from public radio employees (*.wnyc.org, etc.) so dense that one could be forgiven for suspecting that any mention on the web of the fine work they do sets off bells and whistles in otherwise silent offices; a couple emails announcing I was now on the mailing list for programmes I’d mentioned; and one direct email from Jesse Thorn, host of the PRI-distributed <a href="http://www.maximumfun.org/">The Sound of Young America</a>.</p>
+<blockquote>
+<p>I bet you would like my show.<br /> You should give it a listen sometime.<br /> Jesse</p>
+</blockquote>
+<p>At the time I hadn’t heard or even heard of it, but was thrilled to bits that the <em>host</em> of an <em>American public radio show</em> would take the time to write. I immediately subscribed it into iTunes, listened to ten minutes of the first download, said <em>meh</em> out loud (winking and referring to yourself as ‘America’s radio sweetheart’ is charming once, annoying the second time, and on the third, oh boy pal, you better start delivering some muthafuckin’ <span class="caps">RADIO</span> over here) and closed – but luckily did not delete – the <span class="caps">TSOYA</span> folder.</p>
+<p>Turns out that, in a completely unprecedented turn of events, I was impatient and quick to dismiss. I listened to some more shows, and gradually got into the interviewing style, which is at once relaxed and expectantly perched, like a first date in which only one person has been somewhat briefed on the other, but both eventually hit a sort of groove. Compared, say, to Terry Gross on <em>Fresh Air,</em> who seems to make a point of trying to know more about the guest’s work than the guest does – resulting in informative if rather dry swordplay – it’s a good deal more organic and fun, which is of course the point. Maximum fun.</p>
+<p>The <span class="caps">XML</span> feed for the <span class="caps">TSOYA</span> podcast listed episodes going way back into 2007, so over time I’ve been gradually picking and choosing shows (go <a href="http://www.maximumfun.org/archive.htm" title="TSOYA Archive">take a spin</a>, there’s lots of there, there), all the while keeping an eye on one near the bottom of the list: ‘<a href="http://www.maximumfun.org/blog/2007/12/podcast-live-in-chicago-steve-albini.html" title="Steve Albini recorded live in Chicago">Steve Albini</a>, recorded live at Chicago’s Second City Theater’, an episode from last December.</p>
+<p>Those not familiar with the musician and recording engineer Steve Albini would do well to start at his <a href="http://en.wikipedia.org/wiki/Steve_albini">Wikipedia page</a> and <a href="http://en.wikipedia.org/wiki/List_of_Steve_Albini%27s_recording_projects">partial list of recording</a> projects. From my perspective, he’s responsible for what is easily the best <a href="http://www.chicagoreader.com/hitsville/pander.html" title="from 1994">angry letter to a lazy music critic</a> ever, the most <a href="http://en.wikipedia.org/wiki/Songs_About_Fucking" title="Big Black: Songs About Fucking">listened album</a> of my early adulthood, and perhaps the greatest screed of all time against the music industry, <a href="http://www.arancidamoeba.com/mrr/problemwithmusic.html">The Problem With Music,</a> a document of such boundless importance that it should be mandatory reading for anyone with dreams of a recording contract. He’s an angry little dork, but thank God above he’s <em>our</em> angry little dork; would that every engineer with a penchant for difficult music had such forceful prose lying around, waiting for something bloated to attack and deflate.</p>
+<p>So after saving the podcast interview with Albini for a couple months, like a treat to be awarded whenever I got around to remembering it was still there, I listened to it yesterday. I’d never experienced him being interviewed off the page before, and it really is a treat: you’re struck by how he wanders around in his own analogies, never straying far from the point and remaining engaged with interviewer and audience. <a href="http://www.maximumfun.org/blog/2007/12/podcast-live-in-chicago-steve-albini.html">Listen to the whole thing</a>, but here are some choice bits I pulled out, because it’s easy to do that and because I care.</p>
+<p>Having compared the overproduction of music to sleeping with a woman put together by consultants:</p>
+<p>
+<object id="audioplayer1" width="290" height="24" data="/audio/player.swf" type="application/x-shockwave-flash">
+<param name="movie" value="/audio/player.swf" />
+<param name="FlashVars" value="playerID=1&amp;bg=0xf8f8f8&amp;leftbg=0xeeeeee&amp;lefticon=0x666666&amp;rightbg=0xcccccc&amp;rightbghover=0x999999&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;text=0x666666&amp;slider=0x666666&amp;track=0xFFFFFF&amp;border=0x666666&amp;loader=0xDDDDDD&amp;soundFile=%2Faudio%2Falbini_1interference.mp3" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="bgcolor" value="#FFFFFF" />
+</object>
+</p>
+<p>This is a hobby-horse subject for me, but damn: if every graphic designer approached their raw materials with such clear-headedness about their role in the process, the world would be a much more legible place.</p>
+<p>Absolutely brilliant:</p>
+<p>
+<object id="audioplayer2" width="290" height="24" data="/audio/player.swf" type="application/x-shockwave-flash">
+<param name="movie" value="/audio/player.swf" />
+<param name="FlashVars" value="playerID=2&amp;bg=0xf8f8f8&amp;leftbg=0xeeeeee&amp;lefticon=0x666666&amp;rightbg=0xcccccc&amp;rightbghover=0x999999&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;text=0x666666&amp;slider=0x666666&amp;track=0xFFFFFF&amp;border=0x666666&amp;loader=0xDDDDDD&amp;soundFile=%2Faudio%2Falbini_2mania.mp3" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="bgcolor" value="#FFFFFF" />
+</object>
+</p>
+<p>I couldn’t agree more with the following; it has to be said that a lot of the grumbling from musicians about disappearing revenue models is really about disappearing .001% chances of being screwed by an industry, and disappearing .00001% chances of being stadium rich from it:</p>
+<p>
+<object id="audioplayer3" width="290" height="24" data="/audio/player.swf" type="application/x-shockwave-flash">
+<param name="movie" value="/audio/player.swf" />
+<param name="FlashVars" value="playerID=3&amp;bg=0xf8f8f8&amp;leftbg=0xeeeeee&amp;lefticon=0x666666&amp;rightbg=0xcccccc&amp;rightbghover=0x999999&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;text=0x666666&amp;slider=0x666666&amp;track=0xFFFFFF&amp;border=0x666666&amp;loader=0xDDDDDD&amp;soundFile=%2Faudio%2Falbini_3collapse.mp3" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="bgcolor" value="#FFFFFF" />
+</object>
+</p>
+<p>And to all you webcocks, blathering on about ‘disintermediation’, you’re doing it wrong, but you knew that:</p>
+<p>
+<object id="audioplayer4" width="290" height="24" data="/audio/player.swf" type="application/x-shockwave-flash">
+<param name="movie" value="/audio/player.swf" />
+<param name="FlashVars" value="playerID=4&amp;bg=0xf8f8f8&amp;leftbg=0xeeeeee&amp;lefticon=0x666666&amp;rightbg=0xcccccc&amp;rightbghover=0x999999&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;text=0x666666&amp;slider=0x666666&amp;track=0xFFFFFF&amp;border=0x666666&amp;loader=0xDDDDDD&amp;soundFile=%2Faudio%2Falbini_4wrapup.mp3" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="bgcolor" value="#FFFFFF" />
+</object>
+</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

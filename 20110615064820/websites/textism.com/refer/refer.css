@@ -1,0 +1,73 @@
+td
+{
+	padding: 0 10px 0 0;
+	color: black;
+	font-family: Verdana;
+	font-size: 10px;
+	line-height: 20px;
+	border-bottom: #dddddd;
+	border-width: 0 0 1px 0;
+	border-style: none none solid none;
+}
+
+td.noline
+{
+	border: 0;
+}
+
+td.noliner
+{
+	border: 0;
+	text-align: right;
+	vertical-align: middle;
+	height: 50px;
+}
+
+
+thead { font-weight: bold; }
+
+p
+{
+	font-family: Verdana, Trebuchet;
+	font-size: small;
+	line-height: 150%;
+}
+
+code { font-size: medium; }
+
+a:link
+{
+	color: olive;
+	text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+a:visited
+{
+	color: gray;
+	text-decoration: none;
+}
+
+.text
+{
+	border-color: gray white white gray;
+	padding: 2px;
+}
+
+input,textarea, select
+{
+	font-family: Verdana;
+	font-size: 10px;
+	background-color: #eee;
+	border-color: white gray gray white;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+}
+
+input.white
+{
+	background-color: #fff;
+	border: 0;
+}

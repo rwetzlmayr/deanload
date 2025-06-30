@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Renderance</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/07/renderance" title="Permanent link to this item">Renderance</a></h2>
+
+<h3><span class="outleft">7 Apr 2008, 11am</span></h3>
+
+<p><span class="outright"><img src="http://textism.com/img/safarikern.png" alt="Safari kerning" width="85" height="70" /><br />Safari: right face, bad kern</span></p>
+<p>Here’s a seemingly insurmountable, earth-in-the-balance problem I could use some help with. Safari evidently has no trouble rendering a standard, Apple-installed font face like Helvetica Neue Light when it’s named in <span class="caps">CSS</span> by its PostScript handle ‘HelveticaNeue-Light’, but it ignores the font’s metrics and kerns letter pairs like David Carson on a bad day. I’d thought <a href="http://en.wikipedia.org/wiki/Core_Text" title="Wikipedia article on Apple's Core Text technology">Core Text</a> was a system-wide thing these days, but then I’ve been out of it for awhile.</p>
+<p><span class="outright"><img src="http://textism.com/img/firefoxkern.png" alt="Firefox kerning" width="85" height="70" /><br />Firefox: wrong face, decent kern</span></p>
+<p>Firefox and other mozilla browsers, on the other hand, <em>won’t</em> render a standard, Apple-installed font like Helvetica Neue Light, cascading past it to the plain Roman, however the kerning seems to be respected.</p>
+<p>I’ve tried using <a href="http://www.alistapart.com/articles/cssatten/" title="A List Apart article on @font-face">@font-face</a> rules to refer to a TrueType file of the font, but then it just gets weirder: Safari loads it, but the metrics are even more wonky. Firefox (as of the 3.0b5 I’m using) won’t load the .ttf file at all.</p>
+<p>As Fielding Goodney¹ <span class="outright">¹Martin Amis, <cite>Money</cite></span>would have it, ‘I hate it when I can’t <em>figure</em> things’. Any browser geeks out there who can shed some light on this, or suggest workarounds? (Other than doing pictures of words that is, not keen on that.) Dean at this domain. Thanks in advance.</p>
+<p><span class="caps">UPDATE</span>  <a href="http://blog.kno.at/">Christian Knoflach</a> points out that Firefox 2, unlike Firefox 3 beta, <em>will</em> render any system font as long as you reference its screen name, e.g., “Helvetica Neue Light”, but FF2 still has Safari’s bad letterspacing problem. Here’s hoping the release version of Firefox 3 will solve both issues, and all will be good and right for the seventeen of us in the world who care about this sort of malarkey.</p>
+<p><span class="caps">UPDATE</span> 2  Evidently kerning in Safari has been an <a href="http://bugs.webkit.org/show_bug.cgi?id=6136">issue of complaint</a> for some time (thx Daniele). </p>
+<p><span class="caps">UPDATE</span> <span class="caps">THE</span> <span class="caps">LAST </span> <a href="http://l-c-n.com/">Philippe Wittenbergh</a> (and a few others I stupidly brushed off earlier for suggesting font-weight was the way to do it) says that FF3 beta <em>does</em> know what it’s doing when it comes to rendering different weights (and not simply shaving off pixels as older browsers have done):</p>
+<blockquote>
+<p>What Gecko 1.9 (Firefox 3) does is correct by the logic of <span class="caps">CSS</span>.</p>
+<p>You select a font ‘family’ (Helvetica Neue), and then a specific face (by font-weight in this case).</p>
+<p>p {font-family: ‘Helvetica Neue’,  sans-serif; font-weight: 300;}</p>
+<p>This will work correctly in Gecko and, when it comes out, Safari 3.2 (full support for various font-weights was only checked in in Webkit last Friday, 2008.04.04).</p>
+<p>Add ‘HelveticaNeue-Light’ for backwards compatibility with older browsers.</p>
+</blockquote>
+<p>So Safari in the near future, and looky here. Firefox 3.0b5, you beautiful bastard you:</p>
+<p><img src="http://textism.com/img/ff3b5kerning.png" alt="Firefox 3b5 light helv neue kerning" width="213" height="74" /></p>
+<p>Still looks like complete pants on Windows, but no surprises there. Thanks to all for the tips.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

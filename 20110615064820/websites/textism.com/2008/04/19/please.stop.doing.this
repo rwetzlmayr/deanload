@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Please stop doing this</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/19/please.stop.doing.this" title="Permanent link to this item">Please stop doing this</a></h2>
+
+<h3><span class="outleft">19 Apr 2008, 10am</span></h3>
+
+<p><img src="http://textism.com/img/choose.png" alt="Multiple choice" width="292" height="188" /></p>
+<p>Surely any semantic machine doing semantic machine-reading will be semantically smart enough to know what to look for. Do <em>we</em> really need to think about it every time?</p>
+<p>Just a feed that works will do nicely kthxbai.</p>
+<p><span class="outleft">20 Apr 2008, 11am</span></p>
+<p><span class="caps">UPDATE</span>  Having seen <a href="http://mooseyard.com/Jens/2008/04/why-theyre-doing-this/">some</a> <a href="http://db79.com/2008/04/web-broswers-html-and-multiple-xml-feed-formats/">responses</a> to this, it’s clear I should’ve been less terse here. My point is that feed autodiscovery as it is in Safari (and Firefox, Camino, Firefox 2 on XP, Opera, iCab) is a very good thing, and I agree it’s perfect for <a href="http://www.grabup.com/uploads/d53a25a01f9c221c3165447922e0cd6c.png">this sort of application</a>, allowing feeds carrying different content to be quickly tweezed out without one having to hunt for links on a page. If however you argue that multiple formats are important because, say, Microsoft prefers <span class="caps">RSS</span> while Google prefers Atom, then it’s trivial for you, Microsoft and Google to work that out amongst yourselves (think <span class="caps">CSS</span>). Just please don’t require every single person who tries a feed autodiscovery popup to have to decide if they want their ice cream served in a boot, a Pontiac, or a waffle cone.</p>
+<p><span class="outleft">21 Apr 2008, 9am</span></p>
+<p><span class="caps">UPDATE</span>  Oh, clarity, clarity. For the record I should say I in no way intended to ‘call out’ Dan Hill or his excellent site <a href="http://cityofsound.com" title="sorry about that">City of Sound</a> for doing any wrong whatsoever. I merely happened to be subscribing to his feed and was reminded how annoying this particular annoyance is. Really it was just intended as a <em>yo</em> to those now producing templates for web publishing apps to be aware that browser feed autodiscovery + multiple <a href="http://en.wikipedia.org/wiki/Web_feed" title="what the fuck we're talking about">feed formats</a> = vastly bigger problem than any solved by multiple formats.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

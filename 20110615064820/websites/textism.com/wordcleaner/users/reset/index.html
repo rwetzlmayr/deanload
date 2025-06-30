@@ -1,0 +1,19 @@
+<p>Resend Password</p>
+
+<p class="small">Please enter the email address with which you signed up.</p>
+
+<form onClick="return false;">
+
+		<p class="small"><label for="email">Email:</label><br />
+
+		<input name="data[User][email]" type="text" size="20" value="" id="UserEmail" /></p>
+
+		
+	<div class="submit"><input type="submit" value="Submit" id="submit1406807310" onclick="event.returnValue = false; return false;" /></div><script type="text/javascript">
+//<![CDATA[
+Event.observe("submit1406807310", 'click', function(event) { new Ajax.Updater('pageright','/wordcleaner/users/reset', {asynchronous:true, evalScripts:true, onLoading:function(request) {Element.show('indicator')}, parameters:Form.serialize(Event.element(event).form), requestHeaders:['X-Update', 'pageright']}) }, false);
+//]]>
+</script>
+	<p id="indicator" style="display:none;"><img src="/wordcleaner/img/loader.gif" alt="" /></p>
+	
+</form>

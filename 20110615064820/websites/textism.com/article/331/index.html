@@ -1,0 +1,67 @@
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Textism</title>
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+       <link href="/textpattern/css.php?s=article" rel="stylesheet" type="text/css" />
+        <link rel="alternate" type="application/rss+xml" title="rss" href="index.php?rss=1" />
+</head>
+<body>
+<div id="container">
+<div id="head">
+<a href="/"><img src="/common/foxtism.gif" alt=""/></a>
+</div>
+<div id="content">
+<h3>Grep II <span class="permlink"><a href="/article/331/">::</a> </span> <span class="date">17 AUGUST 01</span></h3>
+<p>Continuing in tutorial mode, here&#8217;s one more bit of text wrangling with Grep.</p>
+
+<p>The example text:</p><blockquote>Kalman, Tibor: Hungary, 1994<br>
+Vignelli, Massimo: Italy, 1988<br>
+Weingart, Wolfgang: Neptune, 1972<br>
+</blockquote>
+
+<p>Which needs to be in this format: </p><blockquote>Hungary<br>
+1994: Tibor Kalman </blockquote><blockquote>Italy<br>
+1988: Massimo Vignelli </blockquote><blockquote>Neptune<br>
+1972: Wolfgang Weingart </blockquote>
+
+<p>Swapping around chunks of text, <i>within a single paragraph,</i> may seem impossible to automate. But a freaky good thing about Grep is its ability to assign values to the parts of a search, then reassemble the parts where you choose. In Word, remembering to turn Use Wildcards on, create a search string:</p><blockquote>(*), (*): (*), (*)n</blockquote><blockquote><i>Definitions:</i><br>
+ () &#8212; parentheses define an <i>expression:</i> part of the search to be marked and remembered<br>
+* &#8212; an asterisk indicates one or more characters<br>
+n &#8212; backslash n is Grep syntax for a line break</blockquote>
+
+<p>So we&#8217;re <b>searching for</b>: (something) comma space (something) colon space (something) comma space (something) line break</p>
+
+<p>During the search, each instance of (something) is assigned a numeric value and remembered, so it can be called during the replace.</p>
+
+<p>A replace string:</p><blockquote>3^l4: 2 1^l^l</blockquote><blockquote><i>Definitions:</i><br>
+# &#8212; a backslash and a numeral indicate a found expression and its numeric value<br>
+^l &#8212; caret l is Word&#8217;s wonky syntax for a line break</blockquote>
+
+<p>So we&#8217;re <b>replacing with</b>: (third something) line break (fourth something) colon space (second something) space (first something) line break line break</p>
+
+<p>Try it out. You will swoon.</p>
+<txp:comments_invite />
+<img src="/common/rule.gif" height="4" width="360" alt="" />
+
+</div>
+<div id="navright">
+<a href="/article/329/"><img src="/common/arrow_prev.gif" width="21" height="11" border="0" alt="" /></a><a href="/" title="Home"><img src="/common/arrow_up.gif" width="11" height="21" border="0" alt="" /></a><a href="/article/332/"><img src="/common/arrow_next.gif" width="21" height="11" border="0" alt="" /></a>
+
+<p><form action="/" method="get"><select name="c" onchange="submit(this.form)">
+		<option value=""></option><option value="Advertised+Life">Advertised Life</option><option value="Announcements">Announcements</option><option value="Books+%26+Reading">Books &amp; Reading</option><option value="Cupertino">Cupertino</option><option value="Design+is+Business">Design is Business</option><option value="Dull+White+Men">Dull White Men</option><option value="Elsewhere">Elsewhere</option><option value="Food">Food</option><option value="France">France</option><option value="Gardening">Gardening</option><option value="Google">Google</option><option value="Hacks">Hacks</option><option value="Herself">Herself</option><option value="How+To">How To</option><option value="Irritation">Irritation</option><option value="Laffs">Laffs</option><option value="Memoir">Memoir</option><option value="Microsoft">Microsoft</option><option value="Movies">Movies</option><option value="Music">Music</option><option value="Oliver">Oliver</option><option value="Other+People">Other People</option><option value="Photographs">Photographs</option><option value="Published+Web">Published Web</option><option value="Questions">Questions</option><option value="Refer">Refer</option><option value="Rock+Gods">Rock Gods</option><option value="Scripting">Scripting</option><option value="Shopping">Shopping</option><option value="Stories">Stories</option><option value="Teaching">Teaching</option><option value="Television">Television</option><option value="Text+Wrangling">Text Wrangling</option><option value="TextBox">TextBox</option><option value="Textile">Textile</option><option value="Textpattern">Textpattern</option><option value="The+Move">The Move</option><option value="Typography">Typography</option><option value="Verisign">Verisign</option><option value="Web+Economy">Web Economy</option></select><noscript><input type="submit" value="go" /></noscript></form></p>
+
+<form action="/index.php" method="get"><p>Search<br /><input type="text" name="q" value="" size="15" maxlength="30" /></p></form>
+
+<p style="margin-top:30px"><a href="http://textpattern.com"><img src="http://img.textbox.org/txp_slug105x45.gif" height="45" width="105" border="0" alt="" /></a> </p>
+</div>
+<br clear="all" /><div id="foot">
+
+</div>
+
+</div>
+</body>
+</html>
+<!-- Runtime: 0.035203-->

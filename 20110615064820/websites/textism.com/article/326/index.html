@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<meta name="description" content="Textism is a commonplace book putatively focused on the composition, design and reading of text. In addition, there will be pie." />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="fuck me, Textism, clacker, rhumba, pie, trousers, jazz-chorus, decaying maps, folded shirts." />
+<link href="/common/textism.css" rel="styleSheet" type="text/css" />
+<link rel="Start" title="Home" href="http://www.textism.com" />
+<link rel="Next" href="/article/327/" /><link rel="Prev" href="/article/325/" /><title>Textism &#187; Single Serving &#187; Web Writing Applescripts</title>
+
+<script language="JAVASCRIPT" type="text/javascript" charset="iso-8859-1">
+<!--
+function openform(url) {
+ var url = url + "?url=" + document.location
+  var NS = (document.layers) ? true : false;
+  var IE = (document.all) ? true : false;
+	if(NS) {
+	 window.open(url,"","scrollbars=no,menubar=no,personalbar=no,width=450,height=280,screenX=120,screenY=20");
+	} else {
+	 window.open(url,"","scrollbars=no,menubar=no,personalbar=no,width=450,height=250,left=120,top=20");
+	}
+ }
+//-->
+</script> 
+</head>
+<body>
+
+<div id="container">
+
+<div id="top">
+<a href="/" onfocus="if(this.blur)this.blur()" title="click to go home"><img src="/common/textism.gif" width="500" height="124" border="0" alt="Textism." /> </a> 
+</div>
+
+<div id="left">
+
+		<h3>Web Writing Applescripts<span class="permlink"><a href="/article/326">::</a></span> <span class="date">2 April 01</span></h3>
+		<p>
+	After <a href="http://www.textism.com/article.html?id=79" title="a call for tools">stamping my feet</a> awhile ago about the dearth of writing tools suited to producing well-formed copy for the web, I&#8217;ve written a suite of AppleScripts that approximate some of what I was yammering about: reducing the agony of coding text. The holy grail remains an application that can switch transparently between styled text and code view, but it&#8217;s a start.
+</p>
+<p>
+	With the advent of <a href="http://blogger.com" title="Pyra home">Blogger</a> et al., and the rise of database-driven content management systems, web authors are doing a lot less page construction and a lot more pasting of text into forms. But preparing good copy for the web is cumbersome at best: formatting with tags is counterintuitive to those used to word processors. Typographic standards, consistent formatting and browser compatibility all suffer. Scripts running on web servers can take care of some formatting, but only some.
+</p>
+<p>
+	On the other hand, writing and revising copy entwined in the barbed wire of markup is murder, and previewing in a browser is too much of a snag. 
+</p>
+<p>
+	So the goal here is to afford authors tools that function within a familiar word processing environment, which simplify the process of marking up text, and ensure that analphabetics such as dashes and quotation marks are properly formatted.
+</p>
+<p>
+	<b>NB</b>: these scripts are designed to work with Tom Bender&#8217;s excellent shareware text editor <a href="http://www.nearside.com/trans-tex/" title="Nearside software home">Tex-Edit Plus</a>, though anyone with a bit of scripting chutzpah can tweak for use with any styled text editor. Er, no. They don&#8217;t work on Windows.
+</p>
+<p>
+	<b>What the scripts do</b> 
+</p>
+<p>
+	<span class="title">Generic Tag Wrapper</span> [ shift-cmd-t ]
+</p>
+<blockquote>
+	Wraps any tag around selected text. Defaults to Span with a prompt for a Class attribute, because that&#8217;s what I use most.
+</blockquote>
+<p>
+	<span class="title">Georgify</span> [ shift-cmd-g ] 
+</p>
+<blockquote>
+	This is optional, merely a quick way to convert the writing environment to Matthew Carter&#8217;s <a href="http://microsoft.com/typography/fontpack/default.htm" title="Georgia: A splendid serifed font for onscreen reading">Georgia</a> 17pt: a solid onscreen writing setup. 
+</blockquote>
+<p>
+	<span class="title">Hyperlink Tag Wrapper</span> [ shift-cmd-h ]
+</p>
+<blockquote>
+	Wraps hyperlink tags around selected text. Most useful if you&#8217;ve copied a <span class="caps">URL</span> from somewhere else. Prompts for a Title attribute: leave this blank if you don&#8217;t use Title.
+</blockquote>
+<p>
+	<span class="title">List Maker</span> [ shift-cmd-L ]
+</p>
+<blockquote>
+	Quickly formats a numeric or bulleted list. Enter values through a popup window.
+</blockquote>
+<p>
+	<span class="title">Load in IE</span> [ shift-cmd-e ]
+	<blockquote>
+		Previews the current state of the text in Internet Explorer. Useful for checking links and formatting. Working on a way to link style sheets at the same time, but this works nicely. 
+	</blockquote>
+	<p>
+		<span class="title">Load in IE with <span class="titlecaps">CSS</span> </span> [ shift-cmd-r ] <span class="caps"> <b>NEW</b> </span> 
+	</p>
+	<ul>
+		<li>
+			Creates a temporary <span class="caps">HTML</span> file with Latin-1 language declarations
+		</li>
+		<li>
+			Prompts for the <span class="caps">URL</span> of a <span class="caps">CSS</span> file
+		</li>
+		<li>
+			Loads the temporary page in IE and previews the text with <span class="caps">CSS</span> formatting
+		</li>
+		<li>
+			Remembers the last supplied <span class="caps"> CSS URL</span> 
+		</li>
+	</ul>
+	<p>
+		<span class="title">Markup Noise Reducer</span> [ shift-cmd-n ]
+	</p>
+	<blockquote>
+		Changes the format of all tags to small, blue and Monaco. If you&#8217;ve used the Georgify script, this will leave your copy standing tall, proud and Georgified.
+	</blockquote>
+	<p>
+		<span class="title">Preflight Cruncher</span> [ shift-cmd-c ] <span class="caps"> <b>UPDATED</b> </span> 
+	</p>
+	<blockquote>
+		The last step. Run this script to automatically convert dodgy characters to <span class="caps">HTML</span> entities, check block-level formatting, wrap text styled as bold or italic in appropriate tags, and a few other things. Updated April 22:
+	</blockquote>
+	<ul>
+		<li>
+			Paragraphs formatted with indentation are converted to &#60;blockquote&#62;
+		</li>
+		<li>
+			Entity conversions vastly expanded
+		</li>
+		<li>
+			Block formatting less error-prone
+		</li>
+	</ul>
+	<p>
+		<span class="title"> <span class="titlecaps">URL</span> Grabber</span> [ shift-cmd-u ]
+	</p>
+	<blockquote>
+		A more efficient version of the Hyperlink Tag Wrapper. Useful for adding links to copy while browsing. Quietly asks Internet Explorer what the current loaded web page is, makes a hyperlink from its URL, then asks for a Title attribute, politely loading the title of the web page as a default.
+	</blockquote>
+	<p>
+		<b> <a href="http://textism.com/resources/textism_texedit_scripts.sit.hqx" title="Download from www.textism.com">Download Textism WebWriting for Tex-Edit Plus</a> </b> 
+		<br />
+			Updated April 22
+		</p>
+		<p>
+			<form method="post" action="http://members.notifylist.com/edit/joinlist">
+				<input type="hidden" name="list_name" value="cardigan-webwriting">Join the WebWriting Mailing List to be notified of updates:
+					<br />
+						email:<input type="text" name="email" value=""> <input type="submit" value="join"> 
+								<br />
+									Courtesy <a href="http://NotifyList.com">NotifyList.com</a> 
+								</form>
+							</p>
+
+		<p><img src="/common/rule.gif" width="360" height="4" alt="" /></p>
+
+</div>
+
+<div id="right">
+<a href="/article/325/" title="Previously: Distortion and Feedback" onfocus="if(this.blur)this.blur()" accesskey="[">
+ 				<img src="/common/arrow_prev.gif" width="21" height="11" border="0" alt="" />
+ 			</a><a href="/" title="Back to Textism" onfocus="if(this.blur)this.blur()"><img src="/common/arrow_up.gif" width="11" height="21" border="0" alt="" /></a><a href="/article/327/" title="Next: Priority and Compromise" onfocus="if(this.blur)this.blur()" accesskey="]">
+				<img src="/common/arrow_next.gif" width="21" height="11" border="0" alt="" />
+			</a><form action="/search/" method="get">
+			<p class="side">
+				Search
+				<br />
+				<input type="text" name="query" size="15" maxlength="30" />
+			</p>
+		</form>
+	<form action="/" method="get">
+		<p class="side">Browse
+		<select name="c" tabindex="2" onchange="submit(this.form)"><option value="1"></option>
+									<option value="8">Advertised Life</option>
+									<option value="11">Announcements</option>
+									<option value="23">Books &amp; Reading</option>
+									<option value="13">Cupertino</option>
+									<option value="27">Design is Business</option>
+									<option value="9">Dull White Men</option>
+									<option value="37">Elsewhere</option>
+									<option value="35">Food</option>
+									<option value="33">France</option>
+									<option value="34">Gardening</option>
+									<option value="39">Google</option>
+									<option value="36">Hacks</option>
+									<option value="38">Herself</option>
+									<option value="41">How To</option>
+									<option value="7">Irritation</option>
+									<option value="21">Laffs</option>
+									<option value="3">Memoir</option>
+									<option value="14">Microsoft</option>
+									<option value="5">Movies</option>
+									<option value="4">Music</option>
+									<option value="32">Oliver</option>
+									<option value="29">Other People</option>
+									<option value="30">Photographs</option>
+									<option value="18">Published Web</option>
+									<option value="40">Rock Gods</option>
+									<option value="24">Scripting</option>
+									<option value="16">Teaching</option>
+									<option value="28">Text Wrangling</option>
+									<option value="15">The Move</option>
+									<option value="2">Typography</option>
+									<option value="31">Verisign</option>
+									<option value="6">Web Economy</option>
+									</select>
+</p>
+			<noscript>
+				<input type="submit" value="go" />
+			</noscript>
+
+			</form></div>
+<div id="foot">
+	<p>
+		<a href="javascript:openform('http://textism.com/func/mailto.php');">Email This</a> 
+	</p>
+	<p>
+		<span class="caps"><a href="/" title="Back to front page">BACK TO TEXTISM</a></span> 
+	</p>
+	<p>
+		A division of <a href="http://www.cardigan.com">Cardigan Industries</a> 
+	</p>
+	<p>
+		<span class="caps">ISSN 1496-7596</span> 
+	</p>
+</div>
+</div>
+</body>
+</html>
+

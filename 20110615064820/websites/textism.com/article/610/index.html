@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Textism &rsaquo; Refer</title> 
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+	<meta name="robots" content="index,follow" />
+	<link href="/common/textism.css" rel="stylesheet" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" title="rss" href="http://www.textism.com/rss.php" />
+</head>
+
+<body>
+<div id="container">
+
+<div id="top">
+		<a href="/" onfocus="if(this.blur)this.blur()" title="click to go home"><img src="/common/textism.gif" width="500" height="124" border="0" alt="Textism" /></a> 
+</div>
+
+<div id="left">
+	<h3>Refer <span class="permlink"><a href="/tools/610/">::</a></span> <span class="date">17 DECEMBER 02</span></h3>
+<h3>What Is It?</h3>
+
+	<p>Refer is a web application that tracks incoming referrers (visitors who followed a link found elsewhere) to a web site.</p>
+
+	<h3>What Does It Do?</h3>
+
+	<p>An up-to-the-minute list of referrers, in reverse chronological order, is displayed on a page. You can see Refer in use <a href="/refer/">here</a>. </p>
+
+	<h3>What Is Required?</h3>
+
+	<ul>
+		<li>PHP 4.1+</li>
+		<li>MySQL (any recent version)</li>
+		<li>Your MySQL login and password must allow read/write and table creation privileges for your database.</li>
+
+	</ul>
+
+	<h3>How Can I Tell If I Have Those?</h3>
+
+	<p>Ask your hosting provider.</p>
+
+	<h3>Will It Work on Blogspot?</h3>
+
+	<p>No.</p>
+
+	<h3>What&#8217;s new in the Current Version?</h3>
+
+	<p>With version 1.1, referrers can now be viewed in <a href="http://www.mnot.net/rss/tutorial/">RSS form</a> simply by appending <code>?format=rss</code> to the end of the url with which you view Refer. For example: <a href="/refer/index.php"><span class="caps">HTML</span> view</a>, <a href="/refer/index.php?format=rss"><span class="caps">RSS</span> view</a>. Thus you can now retrieve a list of current referrers in an <span class="caps">RSS</span> reader such as <a href="http://ranchero.com/software/netnewswire/">NetNewsWire Lite</a> or <a href="http://www.disobey.com/amphetadesk/">Amphetadesk</a>.</p>
+
+	<h3>How Does One Install It?</h3>
+
+<p><span class="caps">UPGRADING TO 1.1</span>: those who installed Refer previously need to edit and replace config.php, and replace logfuntions.php and index.php with the new versions.</p>
+
+	<ol>
+		<li>Download refer.zip from the link at the right and unzip it. Open the file <strong>config.php</strong> in a text editor and fill in your database information and preferences.</li>
+
+		<li>Upload the Refer folder to the root directory of your site at your server (or replace config.php, index.php and logfunctions.php if upgrading).</li>
+
+		<li>If installing for the first time: open a web browser and load <strong>http</strong>://<strong><em>yoursite</em></strong>/<strong>refer</strong>/<strong>setupdb.php</strong>, then follow the instructions. This checks your MySQL connection and creates the required tables in your database.</li>
+
+		<li>On every <span class="caps">HTML</span> page you want monitored, paste the following:<br />
+		<code>&#60;?php<br />
+		$dr = $_SERVER[&#34;DOCUMENT_ROOT&#34;];<br />
+		include ($dr.&#34;/refer/logfunctions.php&#34;);<br />
+		logit();<br />
+		?&#62;</code></li>
+		<li>Once some referrers have been recorded, you&#8217;ll see them by loading <strong>http</strong>://<strong><em>yoursite</em></strong>/<strong>refer</strong>/<strong>index.php</strong></li>
+
+		<li>Er, that&#8217;s it.</li>
+	</ol>
+
+<h3>Referrers Not Being Recorded?</h3>
+
+<p>Perhaps your pages are not <span class="caps">PHP</span>-aware. Create a text file in your web directory called .htaccess (if one exists already, open it) and paste the following inside it:<br />
+<code>AddType application/x-httpd-php .html .htm</code></p>
+
+	<h3>Is There Any Warranty or Copyright?</h3>
+
+	<p>No.</p>
+
+	<h3>It&#8217;s Not Working!</h3>
+
+	<p>Oh dear. Send me a note.</p>
+<p><img src="/common/rule.gif" width="360" height="4" alt="" /></p>	<div align="center" style="margin-top:3em">		<p>
+			<span class="caps">THIS HAS BEEN TEXTISM</span> 
+		</p>
+		<p>
+			A division of <a href="http://www.cardigan.com" class="outgoing">Cardigan Industries</a>
+		</p>
+		<p>
+			<span class="caps">ISSN 1496-7596</span> 
+		</p>
+		<img src="/common/tplogo.gif" width="147" height="104" alt="Published with Textpattern" vspace="30" /> 
+</div>
+
+</div>
+
+<div id="right">
+	
+<a href="/article/609/" title="Previously: Herself" onfocus="if(this.blur)this.blur()" accesskey="["><img src="/common/arrow_prev.gif" width="21" height="11" border="0" alt="" /></a><a href="/" title="Back to Textism" onfocus="if(this.blur)this.blur()"><img src="/common/arrow_up.gif" width="11" height="21" border="0" alt="" /></a><a href="/article/611/" title="Next: Refer 1.0" onfocus="if(this.blur)this.blur()" accesskey="]"><img src="/common/arrow_next.gif" width="21" height="11" border="0" alt="" /></a><form action="/search/" method="get">
+			<p class="side">
+				Search
+				<br />
+				<input type="text" name="query" size="15" maxlength="30" />
+			</p>
+		</form>
+	<form action="/" method="get">
+		<p class="side">Browse
+		<select name="c" onchange="submit(this.form)">
+		<option value=""></option><option value="Advertised Life">Advertised Life</option>
+							<option value="Announcements">Announcements</option>
+							<option value="Books &amp; Reading">Books &amp; Reading</option>
+							<option value="Cupertino">Cupertino</option>
+							<option value="Design is Business">Design is Business</option>
+							<option value="Dull White Men">Dull White Men</option>
+							<option value="Elsewhere">Elsewhere</option>
+							<option value="Food">Food</option>
+							<option value="France">France</option>
+							<option value="Gardening">Gardening</option>
+							<option value="Google">Google</option>
+							<option value="Hacks">Hacks</option>
+							<option value="Herself">Herself</option>
+							<option value="How To">How To</option>
+							<option value="Irritation">Irritation</option>
+							<option value="Laffs">Laffs</option>
+							<option value="Memoir">Memoir</option>
+							<option value="Microsoft">Microsoft</option>
+							<option value="Movies">Movies</option>
+							<option value="Music">Music</option>
+							<option value="Oliver">Oliver</option>
+							<option value="Other People">Other People</option>
+							<option value="Photographs">Photographs</option>
+							<option value="Published Web">Published Web</option>
+							<option value="Questions">Questions</option>
+							<option value="Rock Gods">Rock Gods</option>
+							<option value="Scripting">Scripting</option>
+							<option value="Shopping">Shopping</option>
+							<option value="Stories">Stories</option>
+							<option value="Teaching">Teaching</option>
+							<option value="Text Wrangling">Text Wrangling</option>
+							<option value="The Move">The Move</option>
+							<option value="Typography">Typography</option>
+							<option value="Verisign">Verisign</option>
+							<option value="Web Economy">Web Economy</option>
+							</select></p><noscript><input type="submit" value="go" class="smallerbox" /></noscript>
+	</form></div>
+
+<div id="foot">
+</div>
+
+</div>
+</body>
+</html>

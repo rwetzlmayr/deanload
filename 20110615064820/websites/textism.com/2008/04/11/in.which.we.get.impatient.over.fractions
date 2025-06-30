@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: In which we get impatient over fractions</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/11/in.which.we.get.impatient.over.fractions" title="Permanent link to this item">In which we get impatient over fractions</a></h2>
+
+<h3><span class="outleft">11 Apr 2008, 1pm</span></h3>
+
+<p>Dude I thought we’d gone over all this. Some time ago I was flipping through the <a href="http://ecx.images-amazon.com/images/I/51RhzXHJHEL._SS400_.jpg" title="Steamed Motorola?">latest</a> from <em>oogy woogy daddy wuv to see me lick custard from a spoon boobs boobs chocolate boobs aren’t children lovely mrs charles saatchi,</em> and, there alongside the relentless food photography, golly, the designer sure had done his or her level best to make me mad as heck.</p>
+<p>I mean, the age of OpenType started some years ago, and there’s no reason at all continue to design as though the buttons on your keyboard represent the full extent of what’s typographically available. Take setting the ingredients for a recipe: no excuse whatsoever to do something stupid with super/subscript like ¹/₂ cup (or, worse: 1/2 cup) when ½ cup is just as easy if not easier, scans beautifully, communicates precisely and unobtrusively, and is provided to you as a courtesy by the type vendor.</p>
+<p>The following assumes you’re on Leopard, you’re using InDesign, <span class="outright">If you’re still using Quark, stop being a dink. Go sit in the corner.</span>you’ve <em>paid for</em> and installed OpenType fonts. This will provide easy access to the full range of glyphs in the font you’re working in. InDesign has a glyphs palette built in, but it’s quite primitive: you want to use the one that comes bundled with Leopard.</p>
+<p>If you haven’t already, get the input menu into your toolbar: System Preferences → International → Input Menu → ✓ Show input menu in menu bar → ✓ Character Palette. Then, wherever you’re working, pull it up:</p>
+<p><img src="/img/input_menu.png" alt="Mac OSX input menu" width="212" height="186" /></p>
+<p>And marvel at one of the most gorgeous interfaces ever conceived:</p>
+<p><img src="/img/character_palette.png" alt="Mac OSX character input palette" width="434" height="697" /></p>
+<p>Seriously, it’s <em>beautiful.</em> Now note the Search input down at the bottom of the palette. Type in what you’re looking for:</p>
+<p><img src="/img/character_palette_search.png" alt="Mac OS character palette search" width="310" height="326" /></p>
+<p>And up pops a list of everything related to what you’ve entered. You can tell the palette to insert the glyph directly into the doc you’re working on, or copy it to the clipboard, or make a bumper sticker for all I care.</p>
+<p>Here’s a good tip: set the prefs for the palette to ‘Minimize Palette on Application Switch’: when not in use, it just sits quietly in the corner of your screen showing only the last glyph you selected.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	padding-right: 50px;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 140%;
+	text-decoration: none;
+}
+a:link {
+	color: #996633;
+	text-decoration: none;
+}
+a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}

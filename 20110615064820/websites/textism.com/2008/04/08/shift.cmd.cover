@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Shift-Cmd-Cover</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/08/shift.cmd.cover" title="Permanent link to this item">Shift-Cmd-Cover</a></h2>
+
+<h3><span class="outleft">8 Apr 2008, 3pm</span></h3>
+
+<p>In the mid-to-late nineties I worked for a long, weird, sometimes happy stretch as a professional book designer. People would ask, <em>So what do you do for a living,</em> and I’d reply,<em> I’m a book designer, actually,</em> and they’d nod and squint a little and say something like, <em>So … that’s the covers?</em> and I’d say, <em>Well, yes, sometimes I’m hired to come up with the cover for a paperback or the jacket for a hardcover: this involves doing a lot of research and an assload of work to turn out multiple proposals on spec months, or even years, in advance of anything actually being considered ‘in production’ (and by that I mean ‘billable’), and even after the countless meetings at which you stand there like a knob holding up your well-crafted ideas in front of a committee and reply in calm, sane sentences to the concerns of Betsy from marketing about whether green is going to resonate with the right people, and to the publisher’s conviction that titles that aren’t centred on the layout will convey a lack of stateliness, and to Marty from sales’ belief that black and white photography just isn’t going to cut it with the chains, and though the editor has been toiling away without so much as a peep of input you’re pacing back and forth like Jack McCoy explaining to the jury why it’s important and crucial they understand what it means to do the right thing, and then there’s this great bit where the production schedule gets more harried as the press deadline approaches, and your tiny slice of time to finish the job with all its last minute changes eventually compressing down to the space between Letterman and breakfast on the one night when all you really required of life was a little sleep, and anyway it’s just a fucking advert, just the foil wrapper on the Wonder Bread, stop imagining that people are so stupid they only buy books to fit their lifestyle, rather than to have something interesting to read, I mean just look at all the cumulative labour that went into all that grey crap on the paper inside! Shit! Oh, anyway, yeah I do covers but I prefer to do the guts, thanks for asking.</em> Sometimes they’d still be listening.</p>
+<p>Anyway, the joke among my colleagues (in one form or another, the joke used by every graphic designer ever to doodle a thumbnail) was, wouldn’t it be fun to have an app that, with minimal input, would crank out a finished layout automatically for you: sort of a Microsoft FrontPage for cover design, complete with clip art and stock photos and wacky shareware type and ISBNs and barcodes. Well, fuck me, after all this time <a href="http://bookcoverpro.com" title="I want my mid-to-late nineties back!">it’s been done</a>. Spend a few moments taking in those samples. Awesome.</p>
+<p>If ever I attend another cover review meeting, I think I’ll just stand there with the confidence and stoicism of a man aware of the power of his tools, answering all comments with, <em>It’s <span class="caps">BCP</span>, man, you just don’t understand. It knows.</em></p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

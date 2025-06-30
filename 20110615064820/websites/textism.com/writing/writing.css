@@ -1,0 +1,76 @@
+p
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+BLOCKQUOTE
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a.underline
+{
+	color: #000000;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+h1
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: normal;
+}
+
+h3
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 17px;
+	line-height: 24px;
+	text-align: left;
+	font-weight: normal;
+}
+
+small
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+:focus { outline: thin; }
+
+A:link
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+A:visited
+{
+	color: #666666;
+	text-decoration: none;
+}
+
+.caps
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: .1em;
+}

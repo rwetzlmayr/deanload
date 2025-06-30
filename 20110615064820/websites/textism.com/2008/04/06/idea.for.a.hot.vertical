@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Idea for a hot vertical</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/06/idea.for.a.hot.vertical" title="Permanent link to this item">Idea for a hot vertical</a></h2>
+
+<h3><span class="outleft">6 Apr 2008, 3pm</span></h3>
+
+<p>Yeah so we do a user-centric citizen-media social network for women and gay men who’ve just totally dumped (or been dumped by) their partner, no-good slackass douche that he is/was/will no doubt continue to be, right? Tumblelogs, podcasts, rich-client video conversations. Integration with all popular platforms, including Twitter, of course, except that’s through a proprietary app called Bitter. Every newly liberated user who has something to say about some <span class="caps">ASSHOLE</span> can trash talk away through various favourited, taggable channels about how they should have listened to their friends slash parents slash myspace about how he so was not right and anyway girl you’ll be stronger for it. Hold up his skidmarked underpants to the webcam for all to see. Recite his car-crash poetry. Demonstrate in one click just how lame his band is. Rails backend will be coded in twenty minutes and will never go down ever. Revenue model <span class="caps">TBD</span>.</p>
+<p>What to call it? Something sharp and clean, like Mister Ex, no wait, <span class="caps">MRX</span>. Yeah, that’s got the burr of singularity, the hook. I can get the domain, it’s only <a href="http://search.ebay.com/search/search.dll?from=R40&amp;_trksid=m37&amp;satitle=mrx.com" title="Free shipping though">twenty million dollars</a>. Per year. Funding offers to the usual address.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

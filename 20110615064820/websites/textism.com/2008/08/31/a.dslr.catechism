@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: A DSLR Catechism</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/08/31/a.dslr.catechism" title="Permanent link to this item">A DSLR Catechism</a></h2>
+
+<h3><span class="outleft">31 Aug 2008, 1pm</span></h3>
+
+<p>Which lens is best to have on hand?<br />The one at home.</p>
+<p>Which camera is best?<br />The model a step up from the one you just bought.</p>
+<p>When will the right camera for you be available?<br />Probably next year.</p>
+<p>When will it be affordable?<br />When it is obsolete.</p>
+<p>What camera do ‘fools’ buy?<br />Yours.</p>
+<p>Should you shoot <span class="caps">RAW?</span><br />No! Shoot jpeg and get it right the first time you fucking moron.</p>
+<p>Should you shoot jpeg?<br />No! Sliders and presets and curves! Shoot <span class="caps">RAW</span> you fucking moron.</p>
+<p>What must you improve?<br />Your workflow.</p>
+<p>Of what must you have more?<br />Screen real estate.</p>
+<p>Where does no one want to be?<br />In front of a computer.</p>
+<p>Where does everyone want to be?<br />Out shooting.</p>
+<p>How much light is there?<br />Not enough.</p>
+<p>What must the light be?<br />Natural.</p>
+<p>What must the colour balance be?<br />Neutral.</p>
+<p>What must the subject matter be?<br />Interesting.</p>
+<p>What do adjustments make your photograph?<br />More interesting.</p>
+<p>What must the background be?<br />Blown out.</p>
+<p>What mustn’t the highlights be?<br />Blown out.</p>
+<p>What must the shadows be?<br />Punchy.</p>
+<p>What must the flash be?<br />Diffuse.</p>
+<p>What else?<br />Soft.</p>
+<p>Like this?<br />No.</p>
+<p>Now?<br />No.</p>
+<p>Now?<br />Just turn it off.</p>
+<p>What’s the meaning of it all?<br />Self-redemption through an endless stream of pouty self-portraits on Flickr. Also weddings.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

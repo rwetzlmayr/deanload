@@ -1,0 +1,209 @@
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Textism</title> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/common/css.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+<div id="head"><a href="/"><img src="/common/pear2.gif" style="height:142px;width:500px;border:0" alt="Textism" /></a></div>
+<div id="left">
+		<p><span class="caps">COMING SOON</span><br />
+			<a href="http://www.textpattern.com/" title="Honest!">Textpattern</a></p>
+		<p><span class="caps">PHOTOGRAPHS</span><br />
+			<a href="/photos/" title="Several sets of photographs">An index thereof</a></p>
+		<p><span class="caps">TOOLS</span></p>
+			<p><a href="/tools/refer/">Refer</a><br />
+When who came from where to see what</p><p><a href="/tools/textile/">Textile</a><br />
+A humane web text generator</p><p><a href="/resources/index.html?id=9">Web Writing Applescripts</a><br />
+For producing well-formed web text</p><p><a href="/resources/cleanwordhtml/">Word HTML Cleaner</a><br />
+Strip the gunk from MSWord HTML</p>
+		<p><span class="caps">RESOURCES</span></p>
+		<p><a href="/writing/">Evolution of Writing</a><br />
+In Western Europe, anyway</p><p><a href="/bucket/fib.html">Fibonacci Series</a><br />
+In egregious Flash</p><p><a href="/textfaces/">Twenty Faces</a><br />
+A survey of available text typefaces</p>
+</div>
+<div id="right">
+		<p><span class="caps">AUTHOR</span><br />
+			<a href="/about/" title="About the author">Dean Allen</a></p>
+		<p><span class="caps">OCCUPATION</span><br />
+			Industrialist</p>
+		<p><span class="caps">LOCATION</span><br />
+			<a href="/bucket/pomp.html">Pompignan, France</a></p>
+		<p><span class="caps">CONTACT</span><br />
+			From <a href="/contact/" title="send a message via this web site">here</a> or <a href="mailto:&#100;&#101;&#97;&#110;&#64;&#116;&#101;&#120;&#116;&#105;&#115;&#109;&#46;&#99;&#111;&#109;" title="send a message via your email application">there</a></p>
+		<form action="/index.php" method="get"><p>Search<br /><input type="text" name="q" value="" size="15" /></p></form>
+		<form action="/" method="get">
+<p>Browse<br /><select name="c" onchange="submit(this.form)">
+	<option value=""></option>
+		<option value="Advertised+Life">Advertised Life</option>
+		<option value="Announcements">Announcements</option>
+		<option value="Books+%26+Reading">Books &amp; Reading</option>
+		<option value="Cupertino">Cupertino</option>
+		<option value="Design+is+Business">Design is Business</option>
+		<option value="Dull+White+Men">Dull White Men</option>
+		<option value="Elsewhere">Elsewhere</option>
+		<option value="Food">Food</option>
+		<option value="France">France</option>
+		<option value="Gardening">Gardening</option>
+		<option value="Google">Google</option>
+		<option value="Hacks">Hacks</option>
+		<option value="Herself">Herself</option>
+		<option value="How+To">How To</option>
+		<option value="Irritation">Irritation</option>
+		<option value="Laffs">Laffs</option>
+		<option value="Memoir">Memoir</option>
+		<option value="Microsoft">Microsoft</option>
+		<option value="Movies">Movies</option>
+		<option value="Music">Music</option>
+		<option value="Oliver">Oliver</option>
+		<option value="Other+People">Other People</option>
+		<option value="Photographs">Photographs</option>
+		<option value="Potato">Potato</option>
+		<option value="Published+Web">Published Web</option>
+		<option value="Questions">Questions</option>
+		<option value="Rock+Gods">Rock Gods</option>
+		<option value="Scripting">Scripting</option>
+		<option value="Shopping">Shopping</option>
+		<option value="Stories">Stories</option>
+		<option value="Teaching">Teaching</option>
+		<option value="Text+Wrangling">Text Wrangling</option>
+		<option value="The+Move">The Move</option>
+		<option value="Typography">Typography</option>
+		<option value="Verisign">Verisign</option>
+		<option value="Web+Economy">Web Economy</option>
+</select></p><noscript><input type="submit" value="go" /></noscript></form>
+		<p><a href="?rss=1" title="RSS feed">RSS feed</a></p>
+		<p class="side">Daily Oliver<br />
+		<a href="http://www.textism.com/oliver/daily/"><img src="http://www.textism.com/oliver/daily/thumbs/20031031_223021.jpg" width="75" height="100" alt="Link to daily photographs of my dog Oliver" border="0" /></a></p>
+		<p><span class="caps">DONATIONS</span><br />
+	<a href="/bucket/hat/">Are appreciated</a><br />
+	[<a target="_blank" href="/donors.php" onclick="window.open(this.href, 'window', 'width=300,height=400,scrollbars,resizable'); return false;">Donors</a>]</p>
+</div>
+<div id="center">
+	<h3><a href="/article/638/" title="Permanent link to this article">Google Hilite</a> - 30 November 02</h3>
+	<p>I saw that young <a href="http://q.queso.com/" title="Q Daily News">Dr Levine</a> (the hardest working human in modern pediatrics) had implemented a very suave bit of scripting, one that highlights the search terms that bring people to his site via Google.</p>
+
+	<p>I was like <span class="caps">WHOAH DOOD</span> and he was all <span class="caps">LAHLAH LOOK AT ME</span> and I was all <span class="caps">NOT EVEN</span> and he was all <span class="caps">LOOKIT MY GOOGLE THING</span> and I&#8217;m like <span class="caps">NO WAY DOOD</span> and he&#8217;s like <span class="caps">NYAH NYAH</span> and I&#8217;m like</p>
+
+<p><code>
+&#60;?php<br />
+function google_hilite($text) {<br />
+$ref = urldecode($_SERVER[HTTP_REFERER]);<br />
+if (preg_match('/^http://w?w?w?.?google.*/i',$ref)) {<br />
+$query = preg_replace('/^.*q=([^&#38;]+)&#38;?.*$/i','$1',$ref);<br />
+$query = preg_replace('/'|"/','',$query);<br />
+$query_array = preg_split ("/[s,+.]+/",$query);<br />
+foreach($query_array as $b){<br />
+if (!preg_match('/&#60;.+&#62;/',$text)) {<br />
+$text = preg_replace(<br />
+'/(b'.$b.'b)/i',<br />
+'&#60;span class="hilite"&#62;$1&#60;/span&#62;',<br />
+$text);  <br />
+} else {<br />
+$text = preg_replace(<br />
+'/(?&#60;=&#62;)([^&#60;]+)?(b'.$b.'b)/i',<br />
+'$1&#60;span class="hilite"&#62;$2&#60;/span&#62;',<br />
+$text);<br />
+}<br />
+}<br />
+}<br />
+return $text;<br />
+}<br />
+?&#62;
+</code></p>
+
+	<p>Some documentation and an ancillary script are <a href="http://textism.com/tools/google_hilite/google_hilite.txt" title="source">here</a>.</p>
+
+	<p>To see Google Hilite in action, click through the first result on a Google search for <a href="http://www.google.com/search?client=googlet&#38;q=fuck%20me" title="Google Search: fuck me">fuck me</a> (after the &#8216;sponsored link&#8217;) or the fifth (!) result for <a href="http://www.google.com/search?hl=en&#38;lr=&#38;ie=ISO-8859-1&#38;client=googlet&#38;q=verisign" title="Google Search: verisign">Verisign</a>.</p>
+
+<p>NB: The examples cited above weren&#8217;t working for a few hours on Sunday, owing to a cockup by the author.</p>
+
+	<p><span class="caps">UPDATE</span>: Using this is much simpler than I may have indicated. Google Hilite can be used on just about any page, so long as PHP is running on the server. <a href="/tools/google_hilite/">Further details and a download</a>.</p>
+
+
+<p style="text-align:center">* &nbsp; * &nbsp; *</p><h3><a href="/article/637/" title="Permanent link to this article">At 3:21 PM</a> - 29 November 02</h3>
+	<p>Table 1: a young couple are negotiating the terms of an end to their relationship. Two years next month. They, along with their friends, agree it is time, and this is to be an amicable split. Today, though, both are on the defensive. She is agitated, intractable; his calm seems forced and cold. </p>
+
+	<p>Table 2: two men face a third. All wear three-button suits of no remarkable silhouette and matching facial hair. They have been drinking. What started two hours ago as a stiff, jokeless job interview has progressed to a potlatch bonding ritual of sorts, with reciprocated admiration and much bluster and agreement that one system is better than its alternative; it is ridiculous that all the world can&#8217;t admit this plain truth. </p>
+
+	<p>Table 3: a college student (you can tell) seems, by the movement of her hand, to be crossing out passages in the pages of a textbook. A cup of cold coffee rests on a saucer at her elbow. </p>
+
+	<p>Talks at Table 1 are at a standstill: she has said words intended to wound. He flinched the moment they hit the air. The couple is frozen, holding eye contact. An object on the table glows at the outskirts of periphery; they both know his lighter is the one thing he would not fail to grab when he decides to storm out. She covers it with her palm.</p>
+
+	<p>The moat around Table 2 is fully dug, and the drawbridge is up. Enemies approach &#8211; to pour scalding coffee, steal plates, lob in the bill &#8211; but nothing penetrates. In tears, one of the partners tells of a childhood memory. He has unbuttoned his trousers. The others talk above him: something about the potential power of instant publishing. </p>
+
+	<p>The student at Table 3, it turns out, is using a pink hiliter to highlight entire pages of text. Each word, each line, each paragraph.</p>
+
+
+<p style="text-align:center">* &nbsp; * &nbsp; *</p><h3><a href="/article/636/" title="Permanent link to this article">Post of the Year</a> - 28 November 02</h3>
+	<p>I&#8217;m sure all dogs do the post-nap stretching thing: hind legs stay put while front paws walk forward until chest touches ground, then a long sigh or yawn. </p>
+
+<p>My dog Oliver does this, but &#8211; with consistency unlike any other dog I&#8217;ve met &#8211; at the moment of maximum stretch, with his ass in the air, he turns his head to look around, almost as if to make sure someone is watching, pauses a beat, then farts: sort of a quiet <em>ffit.</em></p>
+
+	<p>Whereupon he collapses into a sphinx pose and resumes staring at whoever is in the room. After a few seconds, <em>every single time,</em> he cocks his head at an angle, looks a little alarmed, and starts to sniff the air.</p>
+
+	<p>A Happy Thanksgiving to all.</p>
+
+<p style="text-align:center">* &nbsp; * &nbsp; *</p><h3><a href="/article/635/" title="Permanent link to this article">Dancing Queen</a> - 27 November 02</h3>
+<p><span class="gray">[E]</span>You can dance, <span class="gray">[C#m7]</span>you can jive, <span class="gray">[F#m]</span>having the time of your <span class="gray">[B7]</span>life</p>
+ 
+<p>Ooh, <span class="gray">[D]</span>see that girl, <span class="gray">[Bm7]</span>watch that scene,</p>
+
+<p>Diggin&#8217; the <span class="gray">[A]</span>dancing queen</p>
+ 
+<p><span class="gray">[A]</span>Friday night and the lights are low<span class="gray">[D]</span></p>
+
+<p><span class="gray">[A]</span>Looking out for a place to go<span class="gray">[F#m]</span></p>
+
+<p><span class="gray">[E]</span>Where they play the right music<span class="gray">[Esus]</span></p>
+ 
+<p><span class="gray">[E]</span>Getting in the <span class="gray">[Esus]</span>swing</p>
+
+<p>You&#8217;ve  come to <span class="gray">[E]</span>look <span class="gray">[F#m]</span>for a king</p>
+
+<p><span class="gray">[A]</span>Anybody could be that <span class="gray">[D]</span>guy</p>
+
+<p><span class="gray">[A]</span>Night is young and the music&#8217;s <span class="gray">[F#m]</span>high</p>
+
+<p><span class="gray">[E]</span>With a bit of rock <span class="gray">[Esus]</span>music</p>
+
+<p><span class="gray">[E]</span>Everything is <span class="gray">[Esus]</span>fine</p>
+
+<p>You&#8217;re in the <span class="gray">[E]</span>mood <span class="gray">[F#m]</span>for a dance</p>
+
+<p>And when you <span class="gray">[B7]</span>get the chance...<span class="gray">[E]</span></p>
+
+<p>You are the <span class="gray">[A]</span>dancing queen, <span class="gray">[D]</span>young and sweet, only <span class="gray">[A]</span>seventeen<span class="gray">[D]</span></p>
+
+<p><span class="gray">[A]</span>Dancing queen, <span class="gray">[D]</span>feel the beat from the <span class="gray">[A9]</span>tam<span class="gray">[A]</span>bourine</p>
+
+<p><span class="gray">[A9]</span>Oh <span class="gray">[D]</span>yeah<span class="gray">[A]</span></p>
+
+<p><span class="gray">[E]</span>You can dance, <span class="gray">[C#m7]</span>you can jive</p>
+
+<p><span class="gray">[F#m]</span>having the time of your <span class="gray">[B7]</span>life</p>
+
+<p>Ooh, <span class="gray">[D]</span>see that girl, <span class="gray">[Bm7]</span>watch that scene,</p>
+
+<p>Diggin&#8217; the <span class="gray">[A]</span>dancing queen.</p>
+
+<p style="text-align:center">* &nbsp; * &nbsp; *</p><h3><a href="/article/634/" title="Permanent link to this article">One Story Two</a> - 26 November 02</h3>
+	<p>My thanks to all who offered plausible reasons for yesterday&#8217;s anguished cry. The correct answer is as follows.</p>
+
+	<p>Looking out the bus window Shecky Chekhov saw a woman walking on the sidewalk who looked just like Brenda from <cite>Six Feet Under,</cite> which was funny, he reflected, because Brenda from <cite>Six Feet Under</cite> already looks remarkably like Juliette Lewis, or at least she did back when she was Australian and lost use of her legs after suffering a stroke in <cite>Muriel&#8217;s Wedding</cite>, which happened while she was bonking two men at once (two American sailors, if Shecky recalled correctly). A few seconds later he remembered that in <cite>Six Feet Under</cite> Brenda also bonked two men at once (the surfer dudes), but didn&#8217;t go on to suffer a stroke afterward: that was in her fianc&#233;&#8217;s plotline. The guy who was in <cite>Sports Night.</cite> Shecky hated <cite>Sports Night:</cite> hated the dorky characters and their mannered nervous energy, hated how they talked in speeches all the time, like on <cite>The West Wing,</cite> which incidentally is totally by the same guy. The freebaser.</p>
+
+	<p>Shecky Chekhov then remembered the day he came home early to find his wife bonking two men at once; as the memory surged behind his eyes, he cried out in anguish.</p>
+
+
+<p style="text-align:center">* &nbsp; * &nbsp; *</p><p><a href="?count=115" title="Next page">Next</a></p>
+</div>
+<div id="foot">&nbsp;</div>
+</div>
+</body>
+</html>
+<!-- Runtime: 0.162340-->

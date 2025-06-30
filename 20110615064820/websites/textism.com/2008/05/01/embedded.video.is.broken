@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Embedded video is broken</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/05/01/embedded.video.is.broken" title="Permanent link to this item">Embedded video is broken</a></h2>
+
+<h3><span class="outleft">1 May 2008, 3pm</span></h3>
+
+<p>The highlights of my first trip to Europe, at the age of nineteen, were as follows: getting mugged at knifepoint by a tweaking mass of dreadlocks in Amsterdam (followed by a delightfully sleepless, dehydrated night in a hostel built by Satan himself); hearing, with stunned disbelief, a person of Japanese heritage speak in a cockney accent; and sitting on a Tate Gallery bench staring at the paintings of Francis Bacon, whose work I spent all my late teens and early twenties pretending to understand (still don’t, twenty years on, but continue to enjoy the hell out of).</p>
+<p>I was going to tell you about <a href="http://youtube.com/watch?v=QhaqwlZxJZI">this magnificent South Bank Show</a> on Bacon, made around the same time as that trip (the best bit is the lunch, but do watch all six parts), and now that I’ve done that (just there, a few words back) I realise it’s been, what, twenty seconds since I rattled on all high and mighty and finger-pointy about some user interface issue, so let us then consider for a moment that embedded video is broken.</p>
+<p>To my mind the point of failure lies at offering only two options to the viewer: stay locked onto the web page, which, no matter the site, is like watching a dancing bear on a television being carried by a dancing bear, or go full-screen, which, given both the resolution thang and one’s god-given ability to perform more than one activity at a time, is rarely attractive.</p>
+<p><span class="outright">I know it’s possible to sneak in the back door of some video sharing sites and download files to watch on a standalone player, but that’s no solution to the problem.</span></p>
+<p>This happens several times a day: I find myself at Youtube or Vimeo or Brightcove or wherever, begin watching something interesting, and immediately start looking for a way to put that in a corner of my screen so I can continue working or doing, um, research, and cast my eyes back to it whenever interest demands I do so. This evidently can’t be done using any of the popular embedded video gear, so I end up resizing the browser window (which results in layout chaos) and opening up a fresh window to resume what I was doing before. This is lame, this is broken.</p>
+<p>Please Mr Internets, make a standard embedded video solution that allows us to pop up an actual-size window in which to watch the dancing bears while we continue to save the world. Thanks in advance.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

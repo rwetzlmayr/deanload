@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Postcards from hereabouts</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/15/postcards.from.hereabouts" title="Permanent link to this item">Postcards from hereabouts</a></h2>
+
+<h3><span class="outleft">15 Apr 2008, 12pm</span></h3>
+
+<p>(Shameless plug ahead, but it’s a good one.)</p>
+<p>Our friends Ruth and Julian live over on the other side of the Rhône, in hardcore garlic-and-tomatoes Provence, right at the foot of the inescapable <a href="http://en.wikipedia.org/wiki/Mont_Ventoux" title="Wikipedia entry on a big hill">Mont Ventoux</a>. Despite preferring cats over dogs they’re good people; less, you know, <em>English</em> than a lot of the expats who live down here. She’s an accomplished <a href="http://ruthphillips.com/">cellist </a>(as far as I’m aware the only person I know to have played on a Portishead album) and he’s a painter. We’ve been playing dinner party tennis for a few years now, which is always good loud fun.</p>
+<p><span class="outright">Nice <em>NY Times</em> piece on Julian’s work <a href="http://www.nytimes.com/slideshow/2006/02/22/garden/20060223_CURR_SLIDESHOW_1.html">here</a>.</span></p>
+<p>Anyway for the past couple years Julian, while doing larger commissioned work, has also been painting little gems – ‘Postcards from Provence’ – every day and putting them for sale <a href="http://shiftinglight.com">on his site</a>. At first they went for $100 a pop, and would always be snapped up a few seconds after appearing. Then, in the past year or so, the paintings have been up for auction on a mini-ebayish application that may or may not have been built by me.</p>
+<p>You really do want to have one of these small treasures in your home. <a href="http://auction.shiftinglight.com">I direct you there at once</a>. Bid strong and bid often. Transactions are via PayPal, and he ships worldwide for Iike peanuts. Go! <em>Go!</em></p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

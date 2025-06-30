@@ -1,0 +1,31 @@
+<p>That didn’t work. Try again?</p>
+
+
+<form onSubmit="return false;">
+
+	<p class="small"><label for="username">Email</label><br />
+    <input name="data[User][email]" type="text" size="15" value="" id="UserEmail" /><br />
+
+    <label for="password">Password</label><br />
+    <input type="password" name="data[User][pw_new]" size="15" value="" id="UserPwNew" /></p>
+
+	<div class="submit"><input type="submit" value="Log in" id="submit1125010763" onclick="event.returnValue = false; return false;" /></div><script type="text/javascript">
+//<![CDATA[
+Event.observe("submit1125010763", 'click', function(event) { new Ajax.Updater('pageright','/wordcleaner/users/login', {asynchronous:true, evalScripts:true, onLoading:function(request) {Element.show('indicator')}, parameters:Form.serialize(Event.element(event).form), requestHeaders:['X-Update', 'pageright']}) }, false);
+//]]>
+</script>
+</form>
+
+<p id="indicator" style="display:none;"><img src="/wordcleaner/img/loader.gif" alt="" /></p>
+
+<p class="small">
+
+	Forgot your <a href="/wordcleaner/users/reset" id="link1491588533" onclick=" event.returnValue = false; return false;">password</a><script type="text/javascript">
+//<![CDATA[
+Event.observe('link1491588533', 'click', function(event) { new Ajax.Updater('pageright','/wordcleaner/users/reset', {asynchronous:true, evalScripts:true, requestHeaders:['X-Update', 'pageright']}) }, false);
+//]]>
+</script>?<br />
+
+	Care to <a href="/wordcleaner/users/signup">subscribe</a>?
+
+</p>

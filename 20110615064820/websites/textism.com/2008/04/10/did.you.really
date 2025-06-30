@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-ca" />
+ <meta http-equiv="imagetoolbar" content="false" />
+ <meta name="description" content="The personal site of Dean Allen: boyfriend and oppressor." />
+ <meta name="viewport" content="width=800" />
+ <meta name="DC.title" content="Textism" />
+ <meta name="DC.subject" content="text, type, scripting, data, food, weimaraners" />
+ <meta name="DC.creator" content="Dean Allen - http://textism.com" />
+ <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+ <link rel="openid.server" href="http://www.myopenid.com/server" />
+ <link rel="openid.delegate" href="http://textism.myopenid.com" />
+ <link rel="stylesheet" type="text/css" href="/css/textism.css?04052008" />
+ <link rel="alternate" href="http://textism.com/feed" type="application/rss+xml" title="Textism" charset="utf-8" />
+ <title>Textism: Did you really</title>
+ <script src="/mint/?js" type="text/javascript"></script></head>
+<body>
+<div id="main">
+
+<div id="hover">	
+<h1><a href="/" title="Link to top level">Textism</a></h1>
+<ul id="tnav">
+ <li><a href="/colophon" title="About this site">Colophon</a></li>
+ <li><a href="/feed" title="Receive updates in your feed reader">Feed</a></li>
+ <li><a href="/oliver/daily" title="Photos. Dogs. Frequent.">Oliver, Daily</a></li>
+ <li><a href="http://twitter.com/textism" title="Irregular bleats and blats">Das Twitter</a></li>
+ <li><a href="/favrd" title="Trickle-down egonomics for the Twitter attention sp...">FAVRD</a></li>
+ <li><a href="mailto:dean@textism.com" title="Contact by email">Contact</a></li>
+</ul><br style="clear:both" />
+</div>
+
+<h2><a href="/2008/04/10/did.you.really" title="Permanent link to this item">Did you really</a></h2>
+
+<h3><span class="outleft">10 Apr 2008, 3pm</span></h3>
+
+<p>When it first appeared in late 2006, Twitter seemed to me like a genuinely stupid idea. Great, more web whatever point whosit social networking blarf for those with a permanently internet-eroded attention span. But, then again, since 1966 I’ve received maybe thirteen <span class="caps">SMS</span>s, and sent about the same number – don’t even know how to do so on the current shoephone – so clearly I’m not in the target demo. And there was just something so, ugh, web whatever point whosit class-conscious about it. I mean, I like Maggie Mason and the stuff she does a lot, and even she might agree that that ‘just landed in LA’ on the twitter.com front page has got to be up there among the most unctuously precious things ever. Hey you, mister startup: please don’t try to sell me your fancy new gizmo with the same sort of air-quoted, I-didn’t-say-it-<em>you</em>-did fabulousity with which the dolts at <em>Vanity Fair</em> service the celebrity trade.</p>
+<p>You’ll agree that everything deserves a second chance. A few months ago Twitter started slowly making sense. I’m not sure I concur that, as some have said, the constraints of 140 characters will force anyone to think or write in a meaningfully new way, but there’s something attractive about this throwaway stream of rants, thoughts, links, asides. Fragments of the lives of others just drift in, make you smile, or wince, or roll your eyes for a second, and then disappear. Very little offered, nothing expected in return. I can get behind that.</p>
+<p>Sitting here midday at my desk when it’s evening tomorrow on the other side of the world, it’s admittedly fun to watch drunken Australians twitter <a href="http://twitter.com/kibitzer/statuses/785710486" title="Twitter / River Kleenex">back</a> and <a href="http://twitter.com/andrewbarnett/statuses/785711497" title="Twitter / andrew barnett">forth</a> about how, you know, drunk they are. I keep wondering if <a href="http://ftrain.com" title="Ftrain.com">Ford</a>’s attempts to <a href="http://twitter.com/ftrain" title="I think they're not real, Bob">constrict the format</a> even further constitute a brilliant new advance in letters or if he’s just like one of those borderline <span class="caps">OCD</span> sufferers who can only speak in six-syllable phrases. It turns out that Tim Bray is actually a pretty <a href="http://twitter.com/timbray/statuses/782921463">funny</a> <a href="http://twitter.com/timbray/statuses/785083047">guy</a>. I use it for <a href="http://twitter.com/textism/statuses/785871314">anger management</a>. And I must of course now direct you at once to <a href="http://twitter.com/fireland" title="Josh Allen (no relation)">the only Twitter stream that really matters</a>.</p>
+<p>Why did I bring this up again? Right, the whole point was just to inform those who enjoy <a href="http://textism.com/oliver/daily">Oliver, Daily</a> they can now be notified of a new photo <a href="http://twitter.com/OliverDaily">via Twitter</a>, and then it got all cranky and linkylinky and <em>Vanity Fair</em> and stuff. I’ll try to keep that in check.</p>
+<p class="adslug">This is a paid advertisement</p>
+<script type="text/javascript">
+//<![CDATA[
+(function(id) {
+  document.write('<script type="text/javascript" src="' +
+    'http://www.northmay.com/deck/deck' + id + '_js.php?' +
+    (new Date().getTime()) + '"></' + 'script>');
+})("TX");
+//]]>
+</script>
+<p class="ads">Ads via <a href="http://www.coudal.com/deck/">The Deck</a></p><br style="clear:both" />
+</div>
+</body>
+</html>

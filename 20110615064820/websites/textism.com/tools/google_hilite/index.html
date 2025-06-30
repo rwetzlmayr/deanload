@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Textism</title> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link href="/common/textism.css" rel="stylesheet" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" title="rss" href="http://www.textism.com/rss.php" />
+</head>
+<body>
+<!--fuck me-->
+
+<div id="container">
+	
+	<div id="top">
+			<a href="/" onfocus="if(this.blur)this.blur()" title="click to go home"><img src="/common/textism.gif" width="500" height="124" border="0" alt="Textism" /></a> 
+	</div>
+	
+	<div id="left">
+		<h3>What is It?</h3>
+
+<p>When applied to a page arrived at via Google, this function will highlight the terms used for the Google search wherever they appear.</p>
+
+	<p>To see Google Hilite in action, click through the first result on <a href="http://www.google.com/search?client=googlet&#38;q=fuck%20me" title="Google Search: fuck me">this Google search</a> (after the &#8216;sponsored link&#8217;) or the fifth (!) result for <a href="http://www.google.com/search?hl=en&#38;lr=&#38;ie=ISO-8859-1&#38;client=googlet&#38;q=verisign" title="Google Search: verisign">Verisign</a>.</p>
+
+<h3>How to Install</h3>
+
+<p>1. Download and extract <a href="/tools/google_hilite/google_hilite.zip">google_hilite.zip</a>.</p>
+
+<p>2. Upload <code>google_hilite.php</code> to your server</p>
+
+<p>3. Add a style to your CSS:</p>
+
+<blockquote><code>.hilite { background-color: #FF9; }</code></blockquote>
+	
+<p><em>By all means change the colour.</em></p>
+
+<p>4. Place this on your pages or template, right after &#60;body&#62;</p>
+
+<blockquote><code>
+	&#60;?php <br />
+	$dr = $_SERVER[DOCUMENT_ROOT];<br />
+	include_once($dr.'/PATH/TO/google_hilite.php');<br />
+	ob_start("google_hilite"); <br />
+	?&#62;
+</code></blockquote>
+
+<p><em>If you uploaded the file to a directory called &#8216;<code>includes</code>&#8217; in your web directory, the line above should read </em><br /><code>include_once($dr.'/includes/google_hilite.php');</code></p>
+
+<p>5. Place the following somewhere if you&#8217;d like to welcome the google visitor:</p>
+
+	<blockquote><code>&#60;? google_welcome(); ?&#62;</code></blockquote>
+	</div>
+	
+	<div id="right">
+		<p style="font-size:12px">Download</p>
+		<p><a href="/tools/google_hilite/google_hilite.zip">Google Hilite 0.3</a> <small>(1.7&nbsp;Kb)</small></p>
+		<p style="font-size:12px;margin-top:2em">Change Log</p>
+		<p>0.3 <small>Empty tags were appearing in text containing markup. Fixed. Thanks to Todd Dominey (again).</small></p>
+		<p>0.2 <small>This page created, first zip available</small></p>
+		<p>0.1 <small>Pull!</small></p>
+		
+		<p style="margin-top:2em"><small>(All credit to <a href="http://q.queso.com">Jason Levine</a> and <a href="http://holovaty.com">Adrian Holovaty</a>, who implemented similar scripts on their sites, making me jealous enough to write my own.)</small></p>
+	</div>
+		
+	<div id="foot">
+				<p>
+			<span class="caps">THIS HAS BEEN TEXTISM</span> 
+		</p>
+		<p>
+			A division of <a href="http://www.cardigan.com" class="outgoing">Cardigan Industries</a>
+		</p>
+		<p>
+			<span class="caps">ISSN 1496-7596</span> 
+		</p>
+		<img src="/common/tplogo.gif" width="147" height="104" alt="Published with Textpattern" vspace="30" /> 
+	</div>
+
+</div>
+</body>
+</html>

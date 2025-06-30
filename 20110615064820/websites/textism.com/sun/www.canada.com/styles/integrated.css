@@ -1,0 +1,45 @@
+BODY, DIV, SPAN, FONT {FONT-FAMILY: Verdana, Arial, Helvetica, SansSerif; FONT-SIZE: 11px}
+A { FONT-FAMILY: Verdana, Arial, Helvetica, SansSerif; FONT-SIZE: 11px; color: #000000}
+.breadcrumbs { font-size: 10px}
+.breadcrumbs_color { font-size: 10px; color: #990000}
+.breadcrumbs2 { PADDING-BOTTOM: 2px; PADDING-TOP: 2px}
+.bold { font-weight: bold}
+.boxbody { PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 4px}
+.boxindent { LIST-STYLE: decimal inside; padding-top: 8px; padding-bottom: 8px; padding-right: 8px; padding-left: 8px}
+.boxmargin { LIST-STYLE: decimal inside; padding-top: 8px; padding-bottom: 8px; padding-right: 8px; padding-left: 8px}
+.boxtitle { padding-top: 2px; padding-bottom: 2px; padding-right: 2px; font-weight: bold; text-transform: uppercase; padding-left: 4px}
+.boxtitlewhite { font-size: 9px; font-weight: bold; color: #FFFFFF; text-transform: uppercase; text-decoration: none}
+.boxtitleblack { font-size: 9px; font-weight: bold; color: #000000; text-transform: uppercase; text-decoration: none}
+.dingbat { font-size: 9px; font-weight: bold; color: #990000; text-decoration: none}
+.hot { font-weight: bold; color: #FF0000}
+.leftindent { padding-left: 12px}
+.linkbold { font-size: 10px; font-weight: bold}
+.linkcolour {  color: #000066}
+.linkheadline { color: #000000}
+.linktopstory { font-size: 14px; font-weight: bold; text-decoration: none; padding-top: 4px}
+.linknav { font-size: 10px; font-weight: normal; color: #000000; line-height: 14px}
+.newsheading { font-weight: bold; text-transform: uppercase}
+.newsheadingcolour { font-weight: bold; color: #000066; text-transform: uppercase ; text-decoration: none}
+.newsheadline { font-weight: bold}
+.newsheadlinecolour { font-weight: bold ; color: #000066}
+.plain { font-size: 11px; COLOR: #000000; FONT-WEIGHT: normal}
+.sectionname { font-weight: bold; text-transform: uppercase; color: #FFFFFF}
+.small { FONT-SIZE: 10px;}
+.smallbold { font-size: 10px; font-weight: bold}
+.smallcolour { font-size: 10px; color: #000066}
+.smallcolourbold { font-size: 10px; font-weight: bold; color: #000066}
+.smallgrey { font-size: 10px; color: #666666}
+.smallitalic { font-size: 10px; font-style: italic}
+.smallnounderline { font-size: 9px; text-decoration: none}
+.smallred { font-size: 10px; color: #990000}
+.smallredbold { font-size: 10px; color: #990000 ; font-weight: bold}
+.storybyline { FONT-WEIGHT: bold; MARGIN-TOP: 10pt}
+.storycaption { FONT-WEIGHT: bold}
+.storycredit { font-weight: bold}
+.storydate { margin-top: 10px; font-style: italic}
+.storyheadline { FONT-SIZE: medium; COLOR: black; font-weight: bold; line-height: 120%}
+.storypub { FONT-WEIGHT: normal}
+.storysubhead { FONT-SIZE: medium}
+.storytext { FONT-SIZE: 12px;}
+.textad { font-size: 11px; color: #000000; padding-bottom: 4px; padding-top: 3px}
+.textad2 { font-size: 11px; color: #000000}

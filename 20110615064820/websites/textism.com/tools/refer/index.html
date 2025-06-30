@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Textism</title> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link href="/common/textism.css" rel="stylesheet" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" title="rss" href="http://www.textism.com/rss.php" />
+</head>
+<body>
+
+<div id="container">
+	
+	<div id="top">
+<a href="/"><img src="/common/pear2.gif" style="height:142px;width:500px;border:0" alt="Textism" /></a>
+	</div>
+	
+	<div id="left">
+		<h2>Refer 2.1 <span class="permlink">::</span> <span class="date">27 NOV 03</span></h2>
+
+<p>
+<a href="http://www.textism.com/article/780/ReferSpamming">Info regarding Refer spamming</a>
+</p>
+		<h3>What is it?</h3>
+
+	<p>Refer is a web application that tracks incoming referrers (visitors who followed a link found elsewhere) to your website.</p>
+
+	<h3>What does it do?</h3>
+
+	<p>An up-to-the-minute list of referrers, in reverse chronological order, is displayed on a page. You can see Refer in use <a href="/refer/">here</a>. </p>
+
+	<h3>What is required?</h3>
+
+	<ul>
+		<li>PHP 4.1+</li>
+		<li>MySQL (any recent version)</li>
+		<li>Your MySQL login and password must allow read/write and table creation privileges for your database.</li>
+
+	</ul>
+
+	<h3>How can I tell if I have those?</h3>
+
+	<p>Ask your hosting provider.</p>
+
+	<h3>Will it work on blogspot?</h3>
+
+	<p>No.</p>
+
+	<h3>What&#8217;s new in the current version?</h3>
+
+	<p><strong>New in v</strong>. <strong>2</strong>.<strong>1</strong></p>
+	
+	<ul>
+		<li>Added listing option for search queries from Google, etc.</li>
+		<li>Displayed referrers are now url-decoded for readability.</li>
+		<li>Small errors, too numerous to list, are now nipped in the bud.</li>
+	</ul>
+
+
+	<p><strong>New in v</strong>. <strong>2</strong>.<strong>03</strong></p>
+	
+	<ul>
+		<li>Fixed a problem with &#8220;unknown modifier&#8221; messages on some servers</li>
+	</ul>
+	<p><strong>New in v</strong>. <strong>2</strong>.<strong>02</strong></p>
+	
+	<ul>
+		<li>Removed a large security vulnerability</li>
+		<li>Fixed a problem where Refer was failing with custom table names</li>
+		<li>Glimpse view no longer distinguishes between referrers that come from variants of the same url.</li>
+		<li>Fixed a problem with filenames containing special characters in the ignore list</li>
+		<li>Added the ability to specify directories for Refer to ignore</li>
+		<li><strong>NB</strong>: Those upgrading from Refer 2.01 should replace all existing files with those from the new release, and re-enter configuration values in refer.php.</li>
+	</ul>
+
+	<p><strong>New in v</strong>. <strong>2</strong>.<strong>1</strong></p>
+	
+	<ul>
+		<li>Several error-prevention methods added</li>
+		<li>Added &#8216;glimpse&#8217; views of the top referrers recorded in the past 1, 2, 3 and 7 days</li>
+		<li>Referrers from obviously similar pages are grouped more intelligently</li>
+		<li>Setup help is now available at all times, not just during install</li>
+		<li>Auto-expiry of old referrers wasn't working as advertised, because the author can be a bit dim (thanks to leo at stutarded.com for pointing this out)</li>
+		<li><strong>NB</strong>: Those using Refer 2.0 should run /refer/setupdb.php again, which will upgrade their Refer database table and leave existing data intact</li>
+	</ul>
+
+	<p>The database schema used by Refer 2.0 is entirely different from previous versions. It now runs using one optimised database table, and as such should run with a great deal more speed and stability. The code has been rewritten from scratch, repairing several loose problems in 1.x versions. People who experienced CPU seizures with Refer on FreeBSD or OpenBSD servers should now be free of such heartache.</p>
+
+	<p>Refer now has an option to auto-expire old referrers from the database, which should  reduce disk consumption, and help keep Refer lean and mean.
+	</p>
+	
+	<h3>How does one install it?</h3>
+
+	<ol>
+		<li>Download refer21.tgz from the link at the right and extract it. Open the file <code>refer.php</code> in a text editor and fill in your database information and the handful of required preferences.</li>
+
+		<li>FTP the Refer folder to your server (replacing all existing files if upgrading).</li>
+
+		<li>Open a web browser, navigate to the directory in which you installed Refer, and load <code>setupdb.php</code>. In one step, it should create the required table in your database, and present instructions for recording referrers on your site.</li>
+
+		<li>Carefully read the information given to you during installation regarding recording referrers.</li>
+
+		<li>Once referrers have been recorded, you can view them at by loading <code>index.php</code> in the Refer directory in your browser.</li>
+
+		<li>If you wish to syndicate your Refer list as <acronym title="Really Simple Syndication">RSS</acronym>, then load <code>index.php?format=rss</code> in your newsreader of choice.</li>
+
+		<li>Er, that&#8217;s it.</li>
+	</ol>
+
+<h3>Referrers not being recorded?</h3>
+
+<p>Perhaps your pages are not <span class="caps">PHP</span>-aware. Create a text file in your web directory called .htaccess (if one exists already, open it) and paste the following inside in the file:<br />
+<code>AddType application/x-httpd-php .html .htm</code></p>
+
+	</div>
+	
+	<div id="right">
+		<p>Download<br />
+		<a href="/tools/refer/refer21.tgz">refer21.tgz</a><br />(6.9 Kb)</p>
+				
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <p style="margin-top:3em">Find this useful?<br />
+			<input type="hidden" name="cmd" value="_xclick" />
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="dean@textism.com">
+<input type="hidden" name="item_name" value="textism slushfund">
+<input type="hidden" name="item_number" value="1">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return" value="http://textism.com/">
+<input type="hidden" name="cancel_return" value="http://textism.com/">
+<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" width="62" height="31" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"></p>
+		</form>
+	</div>
+	
+	<div id="foot">
+				<p>
+			<span class="caps">THIS HAS BEEN TEXTISM</span> 
+		</p>
+		<p>
+			A division of <a href="http://www.cardigan.com" class="outgoing">Cardigan Industries</a>
+		</p>
+		<p>
+			<span class="caps">ISSN 1496-7596</span> 
+		</p>
+		<img src="/common/tplogo.gif" width="147" height="104" alt="Published with Textpattern" vspace="30" /> 
+	
+	</div>
+
+</div>
+</body>
+</html>

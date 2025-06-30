@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Textism &rsaquo; Photos</title> 
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+	<meta name="robots" content="index,follow" />
+	<link href="/common/textism.css" rel="stylesheet" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" title="rss" href="http://www.textism.com/rss.php" />
+</head>
+
+<body>
+<div id="container">
+
+<div id="top">
+		<a href="/" onfocus="if(this.blur)this.blur()" title="click to go home"><img src="/common/textism.gif" width="500" height="124" border="0" alt="Textism" /></a> 
+</div>
+
+<div id="left">
+	<h3>Photos <span class="permlink"><a href="/tools/613/">::</a></span> <span class="date">23 OCTOBER 02</span></h3>
+	<p>Thank you for agreeing to test the alpha release of Photos.</p>
+
+	<p>Two prerequisites for getting going: </p>
+
+	<p>You <strong>must</strong> have access to a MySQL database on your server. Your database information will have to be entered into <code>config.php</code>, or none of this is going to fly.</p>
+
+	<p>You <strong>must</strong> create a directory called <code>photos</code> in the root dir of your site, and chmod it to <code>0777</code> (<code>rwxrwxrwx</code>). Reasonable security concerns that arise will be addressed in a version or two, when all the logic files will reside in a different dir.</p>
+
+	<p>Elsewise, setup and operation are pretty straightforward.</p>
+
+	<h3>Installing Photos</h3>
+
+	<p>After filling in your preferences in <code>config.php</code>, upload everything into your <code>/photos/</code> dir on the server. Load <code>/photos/setupdb.php</code> in your browser and follow the instructions. Your MySQL connection will be tested before tables are created. After this, you will enter login information required by the Photos maintainance page.</p>
+
+<p>For the sake of security, it is recommended that you delete or move the <code>setupdb.php</code> file once installation is complete</p>
+
+	<p>Tip: if you go down a slippery path and want to start from scratch, it is possible to delete the Photos tables and your admin information by simply reloading <code>/photos/setupdb.php</code>.</p>
+
+
+	<h3>A Few Matters of Organization</h3>
+
+	<p>Fundamental to the running of this app is the way images are organized. Full-size images are stored in numbered directories, which contain a subdirectory of corresponding thumbnails (with <em>identical</em> file names):</p>
+
+	<p><code>/photos/fullsize/thumbnails/</code></p>
+
+	<p>When a new set is created, the directories</p>
+
+	<p><code>/photos/[setid]/</code></p>
+
+	<p>and</p>
+
+	<p><code>/photos/[setid]/thumbs/</code></p>
+
+	<p>are created by the script.</p>
+
+	<p>It follows that a sensible person will mirror this structure locally on her machine: once images have been prepared for upload, it&#8217;s good to have them all in one place.</p>
+
+	<h3>Preparing Files for Upload</h3>
+
+	<p>Some logical steps:</p>
+
+<ul type="circle">
+	<li>	Decide on a name for the set</li>
+	<li>		Arrive at a firm quantity for the set (files can of course be added and subtracted later)</li>
+	<li>		Prepare full-size images. On the Mac, I find that using GraphicConverter&#8217;s excellent Browser feature in combination with Adobe Imageready makes for quick and simple organization and preparation. In GC, the browser acts like the Finder, allowing you to drag and copy jpgs all over the place. You can open a full set of files at once by dragging them from GC to a photo application in the Dock, or set a key command to have selected images &#8216;open with&#8230;&#8217; your preferred photo application.GraphicConverter can of course scale and crop images, but I find GC&#8217;s scaling quality lacking compared to Imagready, Photoshop and Fireworks.<br />
+	<br />		Once in a photo editing app, it is pretty quick work to set a scaling preference for the cropping tool, and zip through all the open files, doing a &#8216;Save optimized as&#8230;&#8217; for each.<br />
+	<br />		Once the full-size images are ready and in their own folder, I simply create a subfolder called &#8216;thumbs&#8217;, into which a full set of the full-size images are copied. These in turn are opened en masse in Imageready, where they are either selectively cropped down to thumbnail size, or scaled all at once through a macro.</li>
+</ul>
+	
+
+	<h3>Using Photos</h3>
+
+	<p>Simply load <code>/photos/maintain.php</code> and authorize yourself. No sets will have been created. Example steps to creating a set:</p>
+
+	<ul type="circle">
+	<li>Click on &#8216;create sets&#8217;</li>
+	<li>Enter a set title and quantity</li>
+	<li>Load up your full-size images into the form and hit upload</li>
+	<li>Load up thumbnail images onto the following form and upload</li>
+	<li>The set should be created and ready to go. From the front page (&#8216;maintain sets&#8217;) you can access a listing of a set, and go to a detail view where captions can be entered, order changed, images deleted or replaced, etc.</li>
+</ul>
+
+
+	<p>NB: sets, by default, are not visible to the world until you say so. The option to do so is on  the set view page.</p>
+
+	<h3>Displaying Photos</h3>
+
+	<p>The templates I&#8217;ve included are very basic. There are a couple rather like the photo pages on Textism, and a template for a listing of sets. These templates are pulled by <code>/photos/index.php</code>. If no variables are defined in the url that loads the page, then a set listing template is pulled. If a set (s) variable is detected, a set view template is pulled.</p>
+
+	<h3>Designing Pages</h3>
+
+	<p>To display set listings, sets of thumbnails, full-size images and popup lists of available sets on index.php, the placeholders are as follows.</p>
+
+	<blockquote><code>&#60;?=setmenu()?&#62;</code></blockquote>
+
+	<p>Gets called if no variables are set. Prints out a basic list of available sets. This will be more &#8216;designable&#8217; in future versions.</p>
+
+	<blockquote><code>&#60;?=thumbrow()?&#62;</code></blockquote>
+
+	<p>Calls the thumbnails of the current set. There are two optional variables that can be fed to this function. A limit, and some CSS styling. These variables are place in parentheses. Examples:</p>
+
+	<blockquote><code>&#60;?=thumbrow("6")?&#62;</code> <br>
+	will print only the first six thumbnails in a set.</blockquote>
+
+	<blockquote><code>&#60;?=thumbrow("6,6")?&#62;</code><br>
+	is an ideal continuation of the previous example. It will print only six thumbnails of a set, starting at the seventh.</blockquote>
+
+	<blockquote><code>&#60;?=thumbrow("12,6")?&#62;</code><br>
+	will print only six thumbnails of a set, starting at the thirteenth, and so on.</blockquote>
+
+	<p>If you want to use inline CSS styling on the thumbnails, this can be entered after a comma in the parentheses:</p>
+
+	<blockquote><code>&#60;?=thumbrow("","margin-right:5px;")?&#62;</code><br>
+	will put 5 pixels of spacing to the right of each thumbnail.</blockquote>
+
+	<p>When designing pages, it&#8217;s a good idea to think of building containers into which the thumbnails will flow. If you have 12 thumbnails that are 50 px wide, for example, and you put <code>&#60;?=thumbrow()?&#62;</code> into a table cell or a div that is 150 pixels wide, you will get four rows of three thumbnails.</p>
+
+
+	<blockquote><code>&#60;?=fullsize()?&#62;</code> </blockquote>
+
+	<p>simply prints out the current fullsize picture wherever you want it to be.</p>
+
+	<blockquote><code>&#60;?=optlist()?&#62; </code></blockquote>
+
+	<p>generates a popup list of all currently visible sets.</p>
+
+	<p>That&#8217;s it for now. Any glitch reports or suggestions are most welcome.</p>
+
+	<blockquote>&#8211; Dean Allen, 23 Oct, 7:00 pm CET</blockquote>
+
+
+<p><img src="/common/rule.gif" width="360" height="4" alt="" /></p>	<div align="center" style="margin-top:3em">		<p>
+			<span class="caps">THIS HAS BEEN TEXTISM</span> 
+		</p>
+		<p>
+			A division of <a href="http://www.cardigan.com" class="outgoing">Cardigan Industries</a>
+		</p>
+		<p>
+			<span class="caps">ISSN 1496-7596</span> 
+		</p>
+		<img src="/common/tplogo.gif" width="147" height="104" alt="Published with Textpattern" vspace="30" /> 
+</div>
+
+</div>
+
+<div id="right">
+	
+<a href="/article/612/" title="Previously: Photos" onfocus="if(this.blur)this.blur()" accesskey="["><img src="/common/arrow_prev.gif" width="21" height="11" border="0" alt="" /></a><a href="/" title="Back to Textism" onfocus="if(this.blur)this.blur()"><img src="/common/arrow_up.gif" width="11" height="21" border="0" alt="" /></a><a href="/article/614/" title="Next: Idiocy" onfocus="if(this.blur)this.blur()" accesskey="]"><img src="/common/arrow_next.gif" width="21" height="11" border="0" alt="" /></a><form action="/search/" method="get">
+			<p class="side">
+				Search
+				<br />
+				<input type="text" name="query" size="15" maxlength="30" />
+			</p>
+		</form>
+	<form action="/" method="get">
+		<p class="side">Browse
+		<select name="c" onchange="submit(this.form)">
+		<option value=""></option><option value="Advertised Life">Advertised Life</option>
+							<option value="Announcements">Announcements</option>
+							<option value="Books &amp; Reading">Books &amp; Reading</option>
+							<option value="Cupertino">Cupertino</option>
+							<option value="Design is Business">Design is Business</option>
+							<option value="Dull White Men">Dull White Men</option>
+							<option value="Elsewhere">Elsewhere</option>
+							<option value="Food">Food</option>
+							<option value="France">France</option>
+							<option value="Gardening">Gardening</option>
+							<option value="Google">Google</option>
+							<option value="Hacks">Hacks</option>
+							<option value="Herself">Herself</option>
+							<option value="How To">How To</option>
+							<option value="Irritation">Irritation</option>
+							<option value="Laffs">Laffs</option>
+							<option value="Memoir">Memoir</option>
+							<option value="Microsoft">Microsoft</option>
+							<option value="Movies">Movies</option>
+							<option value="Music">Music</option>
+							<option value="Oliver">Oliver</option>
+							<option value="Other People">Other People</option>
+							<option value="Photographs">Photographs</option>
+							<option value="Published Web">Published Web</option>
+							<option value="Questions">Questions</option>
+							<option value="Rock Gods">Rock Gods</option>
+							<option value="Scripting">Scripting</option>
+							<option value="Shopping">Shopping</option>
+							<option value="Stories">Stories</option>
+							<option value="Teaching">Teaching</option>
+							<option value="Text Wrangling">Text Wrangling</option>
+							<option value="The Move">The Move</option>
+							<option value="Typography">Typography</option>
+							<option value="Verisign">Verisign</option>
+							<option value="Web Economy">Web Economy</option>
+							</select></p><noscript><input type="submit" value="go" class="smallerbox" /></noscript>
+	</form></div>
+
+<div id="foot">
+</div>
+
+</div>
+</body>
+</html>

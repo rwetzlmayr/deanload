@@ -1,0 +1,296 @@
+#container
+{
+	width: 530px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#top
+{
+	height: 124px;
+	width: 500px;
+}
+
+
+#right
+{
+	float: left;
+	width: 130px;
+	background: #fff;
+	padding: 0px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#left
+{
+	width: 350px;
+	margin-right: 10px;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+#foot
+{
+	width: 530px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+body { 	text-align: center; }
+
+
+code
+{
+	font-size: larger;
+	font-family: Courier, "Courier New", Monospace;
+}
+
+
+body, p
+{
+	color: #000;
+	background-color: #fff;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+p, blockquote { line-height: 18px; }
+
+span.permlink
+{
+	font-size: 11px;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	margin-left: 8px;
+	margin-right: 8px;
+	font-weight: normal;
+}
+
+h1
+{
+	font-family: Georgia,Times,Serif;
+	font-size: 24px;
+	color: red;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: Georgia,Times,Serif;
+	font-size: 18px;
+	color: #000;
+	font-weight: normal;
+
+}
+
+
+h3
+{
+	font-family: Georgia, Times, "Times New Roman", Palatino, Verdana, Tahoma, Helvetica;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 10px 0px 0px 0px;
+}
+
+blockquote
+{
+	margin-left: 18px;
+	margin-right: 0px;
+	font-size: 11px;
+}
+
+
+acronym
+{
+	font-size: 10px;
+	letter-spacing: .09em;
+}
+
+
+span.caps
+{
+	font-size: 10px;
+	letter-spacing: .09em;
+}
+
+span.hilite { background-color: #FF9; }
+
+span.date
+{
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	letter-spacing: .09em;
+	font-weight: normal;
+}
+
+span.gcaps
+{
+	font-size: 10px;
+	letter-spacing: .09em;
+	color: red;
+}
+
+span.gray
+{
+	color: gray;
+}
+
+span.titlecaps
+{
+	font-size: 12px;
+	letter-spacing: .1em;
+}
+
+p.side
+{
+	color: #000000;
+	font-size: 10px;
+	margin: 10px 0px 2px 0px;
+}
+
+p.res
+{
+	color: #000000;
+	font-size: 10px;
+	line-height: 14px;
+	margin: 0px 0px 8px 0px;
+}
+
+p.related
+{
+	color: #000000;
+	font-size: 10px;
+	line-height: 12px;
+	margin: 0px 0px 2px 0px;
+}
+
+a:link
+{
+	color: #996633;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #666666;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a.outgoing
+{
+	color: #C33;
+}
+
+a:hover { text-decoration: underline; }
+
+span.emdash { font-family: Arial, Helvetica; }
+
+.title
+{
+	font-family: Georgia, Times, "Times New Roman", Palatino, Helvetica;
+	font-size: 14px;
+}
+
+li, ol, ul
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+}
+
+input, textarea
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 140%;
+}
+
+input, textarea
+{
+	background-color: #eee;
+	border-color: #999 #FFF #FFF #999;
+	border-width: 1px;
+	border-style: solid;
+	float: none;
+}
+
+textarea.340p { width: 340px; }
+
+select
+{
+	background-color: #eee;
+	font-family: Verdana, Trebuchet;
+	font-size: 10px;
+	border-color: #FFF #999 #999 #FFF;
+	border-width: 1px;
+	border-style: solid;
+}
+
+option
+{
+	background-color: #eee;
+	font-family: Verdana, Trebuchet;
+	font-size: 10px;
+}
+
+input.button
+{
+	background-color: #dddddd;
+	padding: 3px;
+	margin-top: 5px;
+	border-color: #FFF #999 #999 #FFF;
+	border-width: 1px;
+	border-style: solid;
+}
+
+input.checkbox { border: 0; }
+
+
+.smaller
+{
+	color: #000000;
+	font-size: 10px;
+	line-height: 16px;
+}
+
+small
+{
+	color: #990000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 18px;
+}
+
+input.press
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	padding-bottom: 4px;
+	font-size: 10px;
+	vertical-align: top;
+}
+
+img { border: 0; }
+
+.strike
+{
+	/*	
+	border-bottom: gray;
+	border-width: 0 0 1px 0;
+	border-style: none none inset none;
+*/
+	background-image: url(/common/strike4.gif);
+	background-repeat: repeat-x;
+}
